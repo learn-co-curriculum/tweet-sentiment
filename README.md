@@ -1,7 +1,4 @@
----
-tags: API, cocoapods
-languages: objc
----
+
 
 # Tweet Sentiment
 
