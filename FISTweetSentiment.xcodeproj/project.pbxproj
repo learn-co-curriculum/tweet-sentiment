@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57FE4B454FAAE993D9BF7DDC /* libPods-FISTweetSentimentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB372EE205BA23A8C84EB889 /* libPods-FISTweetSentimentTests.a */; };
 		5B1E14B21BA1BE6D004344E8 /* FISConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E14B11BA1BE6D004344E8 /* FISConstants.m */; };
 		5B1E14B51BA1C91E004344E8 /* FISTwitterAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E14B41BA1C91E004344E8 /* FISTwitterAPIClient.m */; };
 		5B1E14B81BA1D090004344E8 /* FISSentiment140API.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E14B71BA1D090004344E8 /* FISSentiment140API.m */; };
@@ -51,6 +52,9 @@
 		5B229F491BA1BBEB001CA47C /* FISTweetSentimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FISTweetSentimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B229F4E1BA1BBEB001CA47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B229F4F1BA1BBEB001CA47C /* FISTweetSentimentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISTweetSentimentTests.m; sourceTree = "<group>"; };
+		64AE5065345D41186987414A /* Pods-FISTweetSentimentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FISTweetSentimentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FISTweetSentimentTests/Pods-FISTweetSentimentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		871A26FD685045BBDAAA7E10 /* Pods-FISTweetSentimentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FISTweetSentimentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FISTweetSentimentTests/Pods-FISTweetSentimentTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB372EE205BA23A8C84EB889 /* libPods-FISTweetSentimentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FISTweetSentimentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0273C0D30052B6668A4E4BA /* libPods-FISTweetSentiment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FISTweetSentiment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80D328A133DE044ECE09CCD /* Pods-FISTweetSentiment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FISTweetSentiment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FISTweetSentiment/Pods-FISTweetSentiment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57FE4B454FAAE993D9BF7DDC /* libPods-FISTweetSentimentTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				E0273C0D30052B6668A4E4BA /* libPods-FISTweetSentiment.a */,
+				CB372EE205BA23A8C84EB889 /* libPods-FISTweetSentimentTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -154,6 +160,8 @@
 			children = (
 				F80D328A133DE044ECE09CCD /* Pods-FISTweetSentiment.debug.xcconfig */,
 				05CD33C3A18B81971A1C24F3 /* Pods-FISTweetSentiment.release.xcconfig */,
+				64AE5065345D41186987414A /* Pods-FISTweetSentimentTests.debug.xcconfig */,
+				871A26FD685045BBDAAA7E10 /* Pods-FISTweetSentimentTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -184,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B229F561BA1BBEB001CA47C /* Build configuration list for PBXNativeTarget "FISTweetSentimentTests" */;
 			buildPhases = (
+				A775231DB6FE783636C2D47E /* Check Pods Manifest.lock */,
 				5B229F451BA1BBEB001CA47C /* Sources */,
 				5B229F461BA1BBEB001CA47C /* Frameworks */,
 				5B229F471BA1BBEB001CA47C /* Resources */,
+				B04B76FC2A1393BB0F1B4924 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,6 +279,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A775231DB6FE783636C2D47E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B04B76FC2A1393BB0F1B4924 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FISTweetSentimentTests/Pods-FISTweetSentimentTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BBB053A6EBDB1A0037DBD3D6 /* Copy Pods Resources */ = {
@@ -444,6 +484,7 @@
 		};
 		5B229F571BA1BBEB001CA47C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64AE5065345D41186987414A /* Pods-FISTweetSentimentTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -463,6 +504,7 @@
 		};
 		5B229F581BA1BBEB001CA47C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 871A26FD685045BBDAAA7E10 /* Pods-FISTweetSentimentTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

@@ -9,5 +9,9 @@ end
 
 target 'FISTweetSentimentTests' do
 
+  pod 'Specta'
+  pod 'Expecta'                                                 
+  pod 'OHHTTPStubs'
+
 end
 
