@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FISTwitterAPIClient.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+
+    [FISTwitterAPIClient getTweetsFromQuery:@"JamesBond"
+                             withCompletion:^(NSNumber *polairty) {
+                                 
+                                 NSLog(@"The Polarity is %@", polairty);
+                             }];
+    
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

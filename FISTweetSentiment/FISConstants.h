@@ -12,5 +12,8 @@
 
 extern NSString *const TWITTER_KEY;
 extern NSString *const TWITTER_SECRET;
+extern NSString *const SENTIMENT140_BASE_URL;
+extern NSString *const SENTIMENT140_QUERY_PARAM;
+extern NSString *const SENTIMENT140_TEXT_PARAM;
 
 @end

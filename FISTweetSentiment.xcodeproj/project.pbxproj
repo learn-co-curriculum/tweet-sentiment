@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5B1E14B21BA1BE6D004344E8 /* FISConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E14B11BA1BE6D004344E8 /* FISConstants.m */; };
+		5B1E14B51BA1C91E004344E8 /* FISTwitterAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E14B41BA1C91E004344E8 /* FISTwitterAPIClient.m */; };
+		5B1E14B81BA1D090004344E8 /* FISSentiment140API.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E14B71BA1D090004344E8 /* FISSentiment140API.m */; };
 		5B229F361BA1BBEB001CA47C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B229F351BA1BBEB001CA47C /* main.m */; };
 		5B229F391BA1BBEB001CA47C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B229F381BA1BBEB001CA47C /* AppDelegate.m */; };
 		5B229F3C1BA1BBEB001CA47C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B229F3B1BA1BBEB001CA47C /* ViewController.m */; };
@@ -32,6 +34,10 @@
 		05CD33C3A18B81971A1C24F3 /* Pods-FISTweetSentiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FISTweetSentiment.release.xcconfig"; path = "Pods/Target Support Files/Pods-FISTweetSentiment/Pods-FISTweetSentiment.release.xcconfig"; sourceTree = "<group>"; };
 		5B1E14B01BA1BE6D004344E8 /* FISConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISConstants.h; sourceTree = "<group>"; };
 		5B1E14B11BA1BE6D004344E8 /* FISConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISConstants.m; sourceTree = "<group>"; };
+		5B1E14B31BA1C91E004344E8 /* FISTwitterAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTwitterAPIClient.h; sourceTree = "<group>"; };
+		5B1E14B41BA1C91E004344E8 /* FISTwitterAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTwitterAPIClient.m; sourceTree = "<group>"; };
+		5B1E14B61BA1D090004344E8 /* FISSentiment140API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISSentiment140API.h; sourceTree = "<group>"; };
+		5B1E14B71BA1D090004344E8 /* FISSentiment140API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISSentiment140API.m; sourceTree = "<group>"; };
 		5B229F301BA1BBEB001CA47C /* FISTweetSentiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FISTweetSentiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B229F341BA1BBEB001CA47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B229F351BA1BBEB001CA47C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -95,6 +101,10 @@
 				5B229F381BA1BBEB001CA47C /* AppDelegate.m */,
 				5B1E14B01BA1BE6D004344E8 /* FISConstants.h */,
 				5B1E14B11BA1BE6D004344E8 /* FISConstants.m */,
+				5B1E14B31BA1C91E004344E8 /* FISTwitterAPIClient.h */,
+				5B1E14B41BA1C91E004344E8 /* FISTwitterAPIClient.m */,
+				5B1E14B61BA1D090004344E8 /* FISSentiment140API.h */,
+				5B1E14B71BA1D090004344E8 /* FISSentiment140API.m */,
 				5B229F3A1BA1BBEB001CA47C /* ViewController.h */,
 				5B229F3B1BA1BBEB001CA47C /* ViewController.m */,
 				5B229F3D1BA1BBEB001CA47C /* Main.storyboard */,
@@ -285,6 +295,8 @@
 			files = (
 				5B1E14B21BA1BE6D004344E8 /* FISConstants.m in Sources */,
 				5B229F3C1BA1BBEB001CA47C /* ViewController.m in Sources */,
+				5B1E14B51BA1C91E004344E8 /* FISTwitterAPIClient.m in Sources */,
+				5B1E14B81BA1D090004344E8 /* FISSentiment140API.m in Sources */,
 				5B229F391BA1BBEB001CA47C /* AppDelegate.m in Sources */,
 				5B229F361BA1BBEB001CA47C /* main.m in Sources */,
 			);
