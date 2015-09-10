@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B229F361BA1BBEB001CA47C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B229F351BA1BBEB001CA47C /* main.m */; };
+		5B229F391BA1BBEB001CA47C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B229F381BA1BBEB001CA47C /* AppDelegate.m */; };
+		5B229F3C1BA1BBEB001CA47C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B229F3B1BA1BBEB001CA47C /* ViewController.m */; };
+		5B229F3F1BA1BBEB001CA47C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B229F3D1BA1BBEB001CA47C /* Main.storyboard */; };
+		5B229F411BA1BBEB001CA47C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B229F401BA1BBEB001CA47C /* Images.xcassets */; };
+		5B229F441BA1BBEB001CA47C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B229F421BA1BBEB001CA47C /* LaunchScreen.xib */; };
+		5B229F501BA1BBEB001CA47C /* FISTweetSentimentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B229F4F1BA1BBEB001CA47C /* FISTweetSentimentTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B229F4A1BA1BBEB001CA47C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B229F281BA1BBEB001CA47C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B229F2F1BA1BBEB001CA47C;
+			remoteInfo = FISTweetSentiment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B229F301BA1BBEB001CA47C /* FISTweetSentiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FISTweetSentiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B229F341BA1BBEB001CA47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B229F351BA1BBEB001CA47C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B229F371BA1BBEB001CA47C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B229F381BA1BBEB001CA47C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B229F3A1BA1BBEB001CA47C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B229F3B1BA1BBEB001CA47C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B229F3E1BA1BBEB001CA47C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B229F401BA1BBEB001CA47C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B229F431BA1BBEB001CA47C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5B229F491BA1BBEB001CA47C /* FISTweetSentimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FISTweetSentimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B229F4E1BA1BBEB001CA47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B229F4F1BA1BBEB001CA47C /* FISTweetSentimentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISTweetSentimentTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B229F2D1BA1BBEB001CA47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B229F461BA1BBEB001CA47C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B229F271BA1BBEB001CA47C = {
+			isa = PBXGroup;
+			children = (
+				5B229F321BA1BBEB001CA47C /* FISTweetSentiment */,
+				5B229F4C1BA1BBEB001CA47C /* FISTweetSentimentTests */,
+				5B229F311BA1BBEB001CA47C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B229F311BA1BBEB001CA47C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B229F301BA1BBEB001CA47C /* FISTweetSentiment.app */,
+				5B229F491BA1BBEB001CA47C /* FISTweetSentimentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B229F321BA1BBEB001CA47C /* FISTweetSentiment */ = {
+			isa = PBXGroup;
+			children = (
+				5B229F371BA1BBEB001CA47C /* AppDelegate.h */,
+				5B229F381BA1BBEB001CA47C /* AppDelegate.m */,
+				5B229F3A1BA1BBEB001CA47C /* ViewController.h */,
+				5B229F3B1BA1BBEB001CA47C /* ViewController.m */,
+				5B229F3D1BA1BBEB001CA47C /* Main.storyboard */,
+				5B229F401BA1BBEB001CA47C /* Images.xcassets */,
+				5B229F421BA1BBEB001CA47C /* LaunchScreen.xib */,
+				5B229F331BA1BBEB001CA47C /* Supporting Files */,
+			);
+			path = FISTweetSentiment;
+			sourceTree = "<group>";
+		};
+		5B229F331BA1BBEB001CA47C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B229F341BA1BBEB001CA47C /* Info.plist */,
+				5B229F351BA1BBEB001CA47C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B229F4C1BA1BBEB001CA47C /* FISTweetSentimentTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B229F4F1BA1BBEB001CA47C /* FISTweetSentimentTests.m */,
+				5B229F4D1BA1BBEB001CA47C /* Supporting Files */,
+			);
+			path = FISTweetSentimentTests;
+			sourceTree = "<group>";
+		};
+		5B229F4D1BA1BBEB001CA47C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B229F4E1BA1BBEB001CA47C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B229F2F1BA1BBEB001CA47C /* FISTweetSentiment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B229F531BA1BBEB001CA47C /* Build configuration list for PBXNativeTarget "FISTweetSentiment" */;
+			buildPhases = (
+				5B229F2C1BA1BBEB001CA47C /* Sources */,
+				5B229F2D1BA1BBEB001CA47C /* Frameworks */,
+				5B229F2E1BA1BBEB001CA47C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FISTweetSentiment;
+			productName = FISTweetSentiment;
+			productReference = 5B229F301BA1BBEB001CA47C /* FISTweetSentiment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B229F481BA1BBEB001CA47C /* FISTweetSentimentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B229F561BA1BBEB001CA47C /* Build configuration list for PBXNativeTarget "FISTweetSentimentTests" */;
+			buildPhases = (
+				5B229F451BA1BBEB001CA47C /* Sources */,
+				5B229F461BA1BBEB001CA47C /* Frameworks */,
+				5B229F471BA1BBEB001CA47C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B229F4B1BA1BBEB001CA47C /* PBXTargetDependency */,
+			);
+			name = FISTweetSentimentTests;
+			productName = FISTweetSentimentTests;
+			productReference = 5B229F491BA1BBEB001CA47C /* FISTweetSentimentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B229F281BA1BBEB001CA47C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "James Campagno";
+				TargetAttributes = {
+					5B229F2F1BA1BBEB001CA47C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5B229F481BA1BBEB001CA47C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5B229F2F1BA1BBEB001CA47C;
+					};
+				};
+			};
+			buildConfigurationList = 5B229F2B1BA1BBEB001CA47C /* Build configuration list for PBXProject "FISTweetSentiment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B229F271BA1BBEB001CA47C;
+			productRefGroup = 5B229F311BA1BBEB001CA47C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B229F2F1BA1BBEB001CA47C /* FISTweetSentiment */,
+				5B229F481BA1BBEB001CA47C /* FISTweetSentimentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B229F2E1BA1BBEB001CA47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B229F3F1BA1BBEB001CA47C /* Main.storyboard in Resources */,
+				5B229F441BA1BBEB001CA47C /* LaunchScreen.xib in Resources */,
+				5B229F411BA1BBEB001CA47C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B229F471BA1BBEB001CA47C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B229F2C1BA1BBEB001CA47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B229F3C1BA1BBEB001CA47C /* ViewController.m in Sources */,
+				5B229F391BA1BBEB001CA47C /* AppDelegate.m in Sources */,
+				5B229F361BA1BBEB001CA47C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B229F451BA1BBEB001CA47C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B229F501BA1BBEB001CA47C /* FISTweetSentimentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B229F4B1BA1BBEB001CA47C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B229F2F1BA1BBEB001CA47C /* FISTweetSentiment */;
+			targetProxy = 5B229F4A1BA1BBEB001CA47C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B229F3D1BA1BBEB001CA47C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B229F3E1BA1BBEB001CA47C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B229F421BA1BBEB001CA47C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B229F431BA1BBEB001CA47C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B229F511BA1BBEB001CA47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B229F521BA1BBEB001CA47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B229F541BA1BBEB001CA47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FISTweetSentiment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B229F551BA1BBEB001CA47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FISTweetSentiment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B229F571BA1BBEB001CA47C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FISTweetSentimentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FISTweetSentiment.app/FISTweetSentiment";
+			};
+			name = Debug;
+		};
+		5B229F581BA1BBEB001CA47C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FISTweetSentimentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FISTweetSentiment.app/FISTweetSentiment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B229F2B1BA1BBEB001CA47C /* Build configuration list for PBXProject "FISTweetSentiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B229F511BA1BBEB001CA47C /* Debug */,
+				5B229F521BA1BBEB001CA47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B229F531BA1BBEB001CA47C /* Build configuration list for PBXNativeTarget "FISTweetSentiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B229F541BA1BBEB001CA47C /* Debug */,
+				5B229F551BA1BBEB001CA47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B229F561BA1BBEB001CA47C /* Build configuration list for PBXNativeTarget "FISTweetSentimentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B229F571BA1BBEB001CA47C /* Debug */,
+				5B229F581BA1BBEB001CA47C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B229F281BA1BBEB001CA47C /* Project object */;
+}
