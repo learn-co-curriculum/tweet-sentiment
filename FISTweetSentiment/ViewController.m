@@ -19,10 +19,9 @@
     [super viewDidLoad];
     
 
-    [FISTwitterAPIClient getTweetsFromQuery:@"JamesBond"
+    [FISTwitterAPIClient getTweetsFromQuery:@"DonaldTrump"
                              withCompletion:^(NSNumber *polairty) {
-                                 
-                                 NSLog(@"The Polarity is %@", polairty);
+                                 NSLog(@"The average is %@", polairty);
                              }];
     
     

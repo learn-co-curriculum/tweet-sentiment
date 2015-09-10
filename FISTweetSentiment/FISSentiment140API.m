@@ -17,11 +17,10 @@
     
     __block NSInteger polarityValue = 0;
     __block NSInteger averagePolarityValue;
+    __block NSInteger numberOfTweetsCheckedForPolarity = 0;
     NSURLSession *mySession = [NSURLSession sharedSession];
-    
-    
-    for (NSInteger i = 0; i < [tweets count]; i++) {
-        NSDictionary *tweet = tweets[i];
+
+    for (NSDictionary *tweet in tweets) {
         NSString *unescapedTweetString = tweet[@"text"];
         NSString *escapedTweetString = [unescapedTweetString stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLHostAllowedCharacterSet]];
         
@@ -30,20 +29,26 @@
         NSURL *sentiment140URL = [NSURL URLWithString:sentimentedString];
         
         NSURLSessionDataTask *task = [mySession dataTaskWithURL:sentiment140URL completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+            if (error) {
+                NSLog(@"Error in utilizing sentiment140 API - %@", error.localizedDescription);
+                completionBlock(nil);
+            }
+            
             NSDictionary *resultsDictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
             NSString *polarity = resultsDictionary[@"results"][@"polarity"];
             
             polarityValue += [polarity integerValue];
             NSLog(@"New polarity value: %ld", polarityValue);
-
-            if (i == [tweets count]-1) {
+            
+            if (numberOfTweetsCheckedForPolarity == [tweets count]-1) {
                 NSLog(@"Done!");
                 averagePolarityValue = polarityValue/[tweets count];
-                
                 completionBlock(@(averagePolarityValue));
             }
+            
+            numberOfTweetsCheckedForPolarity++;
+            
         }];
-        
         [task resume];
     }
 }
