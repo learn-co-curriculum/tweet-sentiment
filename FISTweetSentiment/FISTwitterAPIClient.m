@@ -13,9 +13,8 @@
 
 @implementation FISTwitterAPIClient
 
-+ (void)getTweetsFromQuery:(NSString *)query
-            withCompletion:(void (^)(NSNumber *polairty))completionBlock {
-    
++ (void)getAveragePolarityOfTweetsFromQuery:(NSString *)query
+                             withCompletion:(void (^)(NSNumber *polarity))completionBlock {
     STTwitterAPI *twitter = [STTwitterAPI twitterAPIAppOnlyWithConsumerKey:TWITTER_KEY
                                                             consumerSecret:TWITTER_SECRET];
     
@@ -23,18 +22,14 @@
         
         [twitter getSearchTweetsWithQuery:query
                              successBlock:^(NSDictionary *searchMetadata, NSArray *statuses) {
-                                 
-                                 NSLog(@"About to pass forward the completion block to another method myf riend");
-                                 
                                  [FISSentiment140API getPolarityOfTweets:statuses
                                                                fromQuery:query
                                                           withCompletion:completionBlock];
-                                 
                              } errorBlock:^(NSError *error) {
-                                 NSLog(@"Error with searching for the tweets with %@ - %@", query, error.localizedDescription);
+                                 NSLog(@"%@", error.localizedDescription);
                              }];
     } errorBlock:^(NSError *error) {
-        NSLog(@"Error verifying the credientials.  %@", error.localizedDescription);
+        NSLog(@"%@", error.localizedDescription);
     }];
 }
 

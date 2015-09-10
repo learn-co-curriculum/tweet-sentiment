@@ -10,7 +10,7 @@
 
 @interface FISTwitterAPIClient : NSObject
 
-+ (void)getTweetsFromQuery:(NSString *)query
-            withCompletion:(void (^)(NSNumber *polairty))completionBlock;
++ (void)getAveragePolarityOfTweetsFromQuery:(NSString *)query
+                             withCompletion:(void (^)(NSNumber *polarity))completionBlock;
 
 @end

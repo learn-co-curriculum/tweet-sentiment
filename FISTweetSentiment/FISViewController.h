@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FISViewController.h
 //  FISTweetSentiment
 //
 //  Created by James Campagno on 9/10/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FISViewController : UIViewController
 
 @end
-

@@ -10,9 +10,9 @@
 		5B1E14B21BA1BE6D004344E8 /* FISConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E14B11BA1BE6D004344E8 /* FISConstants.m */; };
 		5B1E14B51BA1C91E004344E8 /* FISTwitterAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E14B41BA1C91E004344E8 /* FISTwitterAPIClient.m */; };
 		5B1E14B81BA1D090004344E8 /* FISSentiment140API.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E14B71BA1D090004344E8 /* FISSentiment140API.m */; };
+		5B1E14BB1BA200EB004344E8 /* FISViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E14BA1BA200EB004344E8 /* FISViewController.m */; };
 		5B229F361BA1BBEB001CA47C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B229F351BA1BBEB001CA47C /* main.m */; };
 		5B229F391BA1BBEB001CA47C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B229F381BA1BBEB001CA47C /* AppDelegate.m */; };
-		5B229F3C1BA1BBEB001CA47C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B229F3B1BA1BBEB001CA47C /* ViewController.m */; };
 		5B229F3F1BA1BBEB001CA47C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B229F3D1BA1BBEB001CA47C /* Main.storyboard */; };
 		5B229F411BA1BBEB001CA47C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B229F401BA1BBEB001CA47C /* Images.xcassets */; };
 		5B229F441BA1BBEB001CA47C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B229F421BA1BBEB001CA47C /* LaunchScreen.xib */; };
@@ -38,13 +38,13 @@
 		5B1E14B41BA1C91E004344E8 /* FISTwitterAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTwitterAPIClient.m; sourceTree = "<group>"; };
 		5B1E14B61BA1D090004344E8 /* FISSentiment140API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISSentiment140API.h; sourceTree = "<group>"; };
 		5B1E14B71BA1D090004344E8 /* FISSentiment140API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISSentiment140API.m; sourceTree = "<group>"; };
+		5B1E14B91BA200EB004344E8 /* FISViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISViewController.h; sourceTree = "<group>"; };
+		5B1E14BA1BA200EB004344E8 /* FISViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISViewController.m; sourceTree = "<group>"; };
 		5B229F301BA1BBEB001CA47C /* FISTweetSentiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FISTweetSentiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B229F341BA1BBEB001CA47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B229F351BA1BBEB001CA47C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B229F371BA1BBEB001CA47C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B229F381BA1BBEB001CA47C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5B229F3A1BA1BBEB001CA47C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5B229F3B1BA1BBEB001CA47C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B229F3E1BA1BBEB001CA47C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B229F401BA1BBEB001CA47C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5B229F431BA1BBEB001CA47C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -105,8 +105,8 @@
 				5B1E14B41BA1C91E004344E8 /* FISTwitterAPIClient.m */,
 				5B1E14B61BA1D090004344E8 /* FISSentiment140API.h */,
 				5B1E14B71BA1D090004344E8 /* FISSentiment140API.m */,
-				5B229F3A1BA1BBEB001CA47C /* ViewController.h */,
-				5B229F3B1BA1BBEB001CA47C /* ViewController.m */,
+				5B1E14B91BA200EB004344E8 /* FISViewController.h */,
+				5B1E14BA1BA200EB004344E8 /* FISViewController.m */,
 				5B229F3D1BA1BBEB001CA47C /* Main.storyboard */,
 				5B229F401BA1BBEB001CA47C /* Images.xcassets */,
 				5B229F421BA1BBEB001CA47C /* LaunchScreen.xib */,
@@ -294,9 +294,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B1E14B21BA1BE6D004344E8 /* FISConstants.m in Sources */,
-				5B229F3C1BA1BBEB001CA47C /* ViewController.m in Sources */,
 				5B1E14B51BA1C91E004344E8 /* FISTwitterAPIClient.m in Sources */,
 				5B1E14B81BA1D090004344E8 /* FISSentiment140API.m in Sources */,
+				5B1E14BB1BA200EB004344E8 /* FISViewController.m in Sources */,
 				5B229F391BA1BBEB001CA47C /* AppDelegate.m in Sources */,
 				5B229F361BA1BBEB001CA47C /* main.m in Sources */,
 			);
