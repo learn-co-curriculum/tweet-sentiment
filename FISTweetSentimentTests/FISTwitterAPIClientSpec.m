@@ -21,28 +21,75 @@ SpecBegin(FISTwitterAPIClient)
 describe(@"FISTwitterAPIClient", ^{
     
     __block id<OHHTTPStubsDescriptor> httpStub;
-
     
-    beforeAll(^{
+    describe(@"requestLocationsWithSuccess:failure:", ^{
         
-        
+        beforeEach(^{
+            
+            [OHHTTPStubs removeAllStubs];
+            httpStub = [OHHTTPStubs stubRequestsPassingTest:^BOOL(NSURLRequest *request) {
 
+                NSLog(@"\n\n============================ Stub Request =============");
+                
+                return [request.URL.host isEqualToString:@"api.twitter.com/oauth2/token"];
+                
+                
+            }
+                        
+                                           withStubResponse:^OHHTTPStubsResponse*(NSURLRequest *request) {
+                                               
+                                               
+                                               NSLog(@"\n\n============= Going to return a request here? =======");
+                                               
+                                               return nil;
+                                           }];
+        });
+        
+        it(@"should get the average polarity of tweets from the provided query.", ^{
+            
+            waitUntil(^(DoneCallback done) {
+                
+                NSLog(@"\n\n=========About to call API Client =============");
+                
+                [FISTwitterAPIClient getAveragePolarityOfTweetsFromQuery:@"FlatironSchool"
+                                                          withCompletion:^(NSNumber *polarity) {
+                                                              
+                                                              
+                                                              NSLog(@"Polarity is %@", polarity);
+                                                          }];
+                
+                
+            });
+        });
     });
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     beforeEach(^{
-
+        
     });
     
     it(@"", ^{
-
-    });  
+        
+    });
     
     afterEach(^{
-
+        
     });
     
     afterAll(^{
-
+        
     });
 });
 
