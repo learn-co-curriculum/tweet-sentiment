@@ -21,6 +21,13 @@ SpecBegin(FISTwitterAPIClient)
 describe(@"FISTwitterAPIClient", ^{
     
     __block id<OHHTTPStubsDescriptor> httpStub;
+    __block NSString *filePath;
+    __block NSArray *tweets;
+    
+    beforeAll(^{
+        filePath = [[NSBundle mainBundle] pathForResource:@"fakeJSON" ofType:@"json"];
+        tweets = [NSArray arrayWithContentsOfFile:filePath];
+    });
     
     describe(@"requestLocationsWithSuccess:failure:", ^{
         
@@ -28,20 +35,21 @@ describe(@"FISTwitterAPIClient", ^{
             
             [OHHTTPStubs removeAllStubs];
             httpStub = [OHHTTPStubs stubRequestsPassingTest:^BOOL(NSURLRequest *request) {
-
-                NSLog(@"\n\n============================ Stub Request =============");
                 
-                return [request.URL.host isEqualToString:@"api.twitter.com/oauth2/token"];
+                return [request.URL.host isEqualToString:@"api.twitter.com"];
                 
-                
+//                return ([request.URL.host isEqualToString:@"api.twitter.com"] ||
+//                        [request.URL.host isEqualToString:@"www.sentiment140.com"]);
             }
-                        
                                            withStubResponse:^OHHTTPStubsResponse*(NSURLRequest *request) {
                                                
+                                               return [OHHTTPStubsResponse responseWithJSONObject:tweets
+                                                                                       statusCode:200
+                                                                                          headers:@{@"Content-type": @"application/json"}];
                                                
-                                               NSLog(@"\n\n============= Going to return a request here? =======");
+                                        
                                                
-                                               return nil;
+                                               
                                            }];
         });
         
@@ -49,13 +57,11 @@ describe(@"FISTwitterAPIClient", ^{
             
             waitUntil(^(DoneCallback done) {
                 
-                NSLog(@"\n\n=========About to call API Client =============");
-                
                 [FISTwitterAPIClient getAveragePolarityOfTweetsFromQuery:@"FlatironSchool"
                                                           withCompletion:^(NSNumber *polarity) {
                                                               
                                                               
-                                                              NSLog(@"Polarity is %@", polarity);
+                                                              NSLog(@"\n\n\nPolarity is %@\n\n\n", polarity);
                                                           }];
                 
                 

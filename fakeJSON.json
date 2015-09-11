@@ -1,0 +1,3697 @@
+(
+        {
+        contributors = "<null>";
+        coordinates = "<null>";
+        "created_at" = "Fri Sep 11 15:11:14 +0000 2015";
+        entities =         {
+            hashtags =             (
+                                {
+                    indices =                     (
+                        68,
+                        73
+                    );
+                    text = code;
+                }
+            );
+            media =             (
+                                {
+                    "display_url" = "pic.twitter.com/3Ggjjba1io";
+                    "expanded_url" = "http://twitter.com/FlatironSchool/status/642354718891712512/photo/1";
+                    id = 642354718120001536;
+                    "id_str" = 642354718120001536;
+                    indices =                     (
+                        98,
+                        120
+                    );
+                    "media_url" = "http://pbs.twimg.com/media/COoaNnlWwAAXc76.png";
+                    "media_url_https" = "https://pbs.twimg.com/media/COoaNnlWwAAXc76.png";
+                    sizes =                     {
+                        large =                         {
+                            h = 682;
+                            resize = fit;
+                            w = 1024;
+                        };
+                        medium =                         {
+                            h = 399;
+                            resize = fit;
+                            w = 600;
+                        };
+                        small =                         {
+                            h = 226;
+                            resize = fit;
+                            w = 340;
+                        };
+                        thumb =                         {
+                            h = 150;
+                            resize = crop;
+                            w = 150;
+                        };
+                    };
+                    type = photo;
+                    url = "http://t.co/3Ggjjba1io";
+                }
+            );
+            symbols =             (
+            );
+            urls =             (
+                                {
+                    "display_url" = "hubs.ly/H01945k0";
+                    "expanded_url" = "http://hubs.ly/H01945k0";
+                    indices =                     (
+                        75,
+                        97
+                    );
+                    url = "http://t.co/5snHtBfuh0";
+                }
+            );
+            "user_mentions" =             (
+                                {
+                    id = 702354494;
+                    "id_str" = 702354494;
+                    indices =                     (
+                        36,
+                        51
+                    );
+                    name = "Flatiron School";
+                    "screen_name" = FlatironSchool;
+                }
+            );
+        };
+        "favorite_count" = 2;
+        favorited = 0;
+        geo = "<null>";
+        id = 642354718891712512;
+        "id_str" = 642354718891712512;
+        "in_reply_to_screen_name" = "<null>";
+        "in_reply_to_status_id" = "<null>";
+        "in_reply_to_status_id_str" = "<null>";
+        "in_reply_to_user_id" = "<null>";
+        "in_reply_to_user_id_str" = "<null>";
+        "is_quote_status" = 0;
+        lang = en;
+        metadata =         {
+            "iso_language_code" = en;
+            "result_type" = recent;
+        };
+        place = "<null>";
+        "possibly_sensitive" = 0;
+        "retweet_count" = 0;
+        retweeted = 0;
+        source = "<a href=\"http://www.hubspot.com/\" rel=\"nofollow\">HubSpot</a>";
+        text = "Why Frankie Kastenbaum came back to @FlatironSchool to teach others #code: http://t.co/5snHtBfuh0 http://t.co/3Ggjjba1io";
+        truncated = 0;
+        user =         {
+            "contributors_enabled" = 0;
+            "created_at" = "Wed Jul 18 04:30:04 +0000 2012";
+            "default_profile" = 0;
+            "default_profile_image" = 0;
+            description = "Make yourself useful.";
+            entities =             {
+                description =                 {
+                    urls =                     (
+                    );
+                };
+                url =                 {
+                    urls =                     (
+                                                {
+                            "display_url" = "flatironschool.com";
+                            "expanded_url" = "http://www.flatironschool.com";
+                            indices =                             (
+                                0,
+                                22
+                            );
+                            url = "http://t.co/3UKW3hS1Zn";
+                        }
+                    );
+                };
+            };
+            "favourites_count" = 1663;
+            "follow_request_sent" = "<null>";
+            "followers_count" = 5096;
+            following = "<null>";
+            "friends_count" = 530;
+            "geo_enabled" = 1;
+            "has_extended_profile" = 0;
+            id = 702354494;
+            "id_str" = 702354494;
+            "is_translation_enabled" = 0;
+            "is_translator" = 0;
+            lang = en;
+            "listed_count" = 209;
+            location = NYC;
+            name = "Flatiron School";
+            notifications = "<null>";
+            "profile_background_color" = 000000;
+            "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_tile" = 0;
+            "profile_banner_url" = "https://pbs.twimg.com/profile_banners/702354494/1418841304";
+            "profile_image_url" = "http://pbs.twimg.com/profile_images/544985527997304833/0DNfZq49_normal.png";
+            "profile_image_url_https" = "https://pbs.twimg.com/profile_images/544985527997304833/0DNfZq49_normal.png";
+            "profile_link_color" = 00B3E6;
+            "profile_sidebar_border_color" = 000000;
+            "profile_sidebar_fill_color" = 000000;
+            "profile_text_color" = 000000;
+            "profile_use_background_image" = 0;
+            protected = 0;
+            "screen_name" = FlatironSchool;
+            "statuses_count" = 2977;
+            "time_zone" = "<null>";
+            url = "http://t.co/3UKW3hS1Zn";
+            "utc_offset" = "<null>";
+            verified = 0;
+        };
+    },
+        {
+        contributors = "<null>";
+        coordinates = "<null>";
+        "created_at" = "Fri Sep 11 14:49:34 +0000 2015";
+        entities =         {
+            hashtags =             (
+            );
+            media =             (
+                                {
+                    "display_url" = "pic.twitter.com/coiQw9Bj5l";
+                    "expanded_url" = "http://twitter.com/FlatironSchool/status/639923143193292800/photo/1";
+                    id = 639923133969883136;
+                    "id_str" = 639923133969883136;
+                    indices =                     (
+                        86,
+                        108
+                    );
+                    "media_url" = "http://pbs.twimg.com/media/COF2syvUYAAtZJz.jpg";
+                    "media_url_https" = "https://pbs.twimg.com/media/COF2syvUYAAtZJz.jpg";
+                    sizes =                     {
+                        large =                         {
+                            h = 632;
+                            resize = fit;
+                            w = 1024;
+                        };
+                        medium =                         {
+                            h = 370;
+                            resize = fit;
+                            w = 600;
+                        };
+                        small =                         {
+                            h = 209;
+                            resize = fit;
+                            w = 340;
+                        };
+                        thumb =                         {
+                            h = 150;
+                            resize = crop;
+                            w = 150;
+                        };
+                    };
+                    "source_status_id" = 639923143193292800;
+                    "source_status_id_str" = 639923143193292800;
+                    "source_user_id" = 702354494;
+                    "source_user_id_str" = 702354494;
+                    type = photo;
+                    url = "http://t.co/coiQw9Bj5l";
+                }
+            );
+            symbols =             (
+            );
+            urls =             (
+            );
+            "user_mentions" =             (
+                                {
+                    id = 702354494;
+                    "id_str" = 702354494;
+                    indices =                     (
+                        3,
+                        18
+                    );
+                    name = "Flatiron School";
+                    "screen_name" = FlatironSchool;
+                },
+                                {
+                    id = 162395759;
+                    "id_str" = 162395759;
+                    indices =                     (
+                        72,
+                        84
+                    );
+                    name = "Amanda Chang";
+                    "screen_name" = changamanda;
+                }
+            );
+        };
+        "favorite_count" = 0;
+        favorited = 0;
+        geo = "<null>";
+        id = 642349268649570304;
+        "id_str" = 642349268649570304;
+        "in_reply_to_screen_name" = "<null>";
+        "in_reply_to_status_id" = "<null>";
+        "in_reply_to_status_id_str" = "<null>";
+        "in_reply_to_user_id" = "<null>";
+        "in_reply_to_user_id_str" = "<null>";
+        "is_quote_status" = 0;
+        lang = en;
+        metadata =         {
+            "iso_language_code" = en;
+            "result_type" = recent;
+        };
+        place = "<null>";
+        "possibly_sensitive" = 0;
+        "retweet_count" = 6;
+        retweeted = 0;
+        "retweeted_status" =         {
+            contributors = "<null>";
+            coordinates = "<null>";
+            "created_at" = "Fri Sep 04 22:09:01 +0000 2015";
+            entities =             {
+                hashtags =                 (
+                );
+                media =                 (
+                                        {
+                        "display_url" = "pic.twitter.com/coiQw9Bj5l";
+                        "expanded_url" = "http://twitter.com/FlatironSchool/status/639923143193292800/photo/1";
+                        id = 639923133969883136;
+                        "id_str" = 639923133969883136;
+                        indices =                         (
+                            66,
+                            88
+                        );
+                        "media_url" = "http://pbs.twimg.com/media/COF2syvUYAAtZJz.jpg";
+                        "media_url_https" = "https://pbs.twimg.com/media/COF2syvUYAAtZJz.jpg";
+                        sizes =                         {
+                            large =                             {
+                                h = 632;
+                                resize = fit;
+                                w = 1024;
+                            };
+                            medium =                             {
+                                h = 370;
+                                resize = fit;
+                                w = 600;
+                            };
+                            small =                             {
+                                h = 209;
+                                resize = fit;
+                                w = 340;
+                            };
+                            thumb =                             {
+                                h = 150;
+                                resize = crop;
+                                w = 150;
+                            };
+                        };
+                        type = photo;
+                        url = "http://t.co/coiQw9Bj5l";
+                    }
+                );
+                symbols =                 (
+                );
+                urls =                 (
+                );
+                "user_mentions" =                 (
+                                        {
+                        id = 162395759;
+                        "id_str" = 162395759;
+                        indices =                         (
+                            52,
+                            64
+                        );
+                        name = "Amanda Chang";
+                        "screen_name" = changamanda;
+                    }
+                );
+            };
+            "favorite_count" = 10;
+            favorited = 0;
+            geo = "<null>";
+            id = 639923143193292800;
+            "id_str" = 639923143193292800;
+            "in_reply_to_screen_name" = "<null>";
+            "in_reply_to_status_id" = "<null>";
+            "in_reply_to_status_id_str" = "<null>";
+            "in_reply_to_user_id" = "<null>";
+            "in_reply_to_user_id_str" = "<null>";
+            "is_quote_status" = 0;
+            lang = en;
+            metadata =             {
+                "iso_language_code" = en;
+                "result_type" = recent;
+            };
+            place = "<null>";
+            "possibly_sensitive" = 0;
+            "retweet_count" = 6;
+            retweeted = 0;
+            source = "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>";
+            text = "Balloon tying workshop taught by our web instructor @changamanda! http://t.co/coiQw9Bj5l";
+            truncated = 0;
+            user =             {
+                "contributors_enabled" = 0;
+                "created_at" = "Wed Jul 18 04:30:04 +0000 2012";
+                "default_profile" = 0;
+                "default_profile_image" = 0;
+                description = "Make yourself useful.";
+                entities =                 {
+                    description =                     {
+                        urls =                         (
+                        );
+                    };
+                    url =                     {
+                        urls =                         (
+                                                        {
+                                "display_url" = "flatironschool.com";
+                                "expanded_url" = "http://www.flatironschool.com";
+                                indices =                                 (
+                                    0,
+                                    22
+                                );
+                                url = "http://t.co/3UKW3hS1Zn";
+                            }
+                        );
+                    };
+                };
+                "favourites_count" = 1663;
+                "follow_request_sent" = "<null>";
+                "followers_count" = 5096;
+                following = "<null>";
+                "friends_count" = 530;
+                "geo_enabled" = 1;
+                "has_extended_profile" = 0;
+                id = 702354494;
+                "id_str" = 702354494;
+                "is_translation_enabled" = 0;
+                "is_translator" = 0;
+                lang = en;
+                "listed_count" = 209;
+                location = NYC;
+                name = "Flatiron School";
+                notifications = "<null>";
+                "profile_background_color" = 000000;
+                "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+                "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+                "profile_background_tile" = 0;
+                "profile_banner_url" = "https://pbs.twimg.com/profile_banners/702354494/1418841304";
+                "profile_image_url" = "http://pbs.twimg.com/profile_images/544985527997304833/0DNfZq49_normal.png";
+                "profile_image_url_https" = "https://pbs.twimg.com/profile_images/544985527997304833/0DNfZq49_normal.png";
+                "profile_link_color" = 00B3E6;
+                "profile_sidebar_border_color" = 000000;
+                "profile_sidebar_fill_color" = 000000;
+                "profile_text_color" = 000000;
+                "profile_use_background_image" = 0;
+                protected = 0;
+                "screen_name" = FlatironSchool;
+                "statuses_count" = 2977;
+                "time_zone" = "<null>";
+                url = "http://t.co/3UKW3hS1Zn";
+                "utc_offset" = "<null>";
+                verified = 0;
+            };
+        };
+        source = "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>";
+        text = "RT @FlatironSchool: Balloon tying workshop taught by our web instructor @changamanda! http://t.co/coiQw9Bj5l";
+        truncated = 0;
+        user =         {
+            "contributors_enabled" = 0;
+            "created_at" = "Mon Aug 23 19:40:12 +0000 2010";
+            "default_profile" = 1;
+            "default_profile_image" = 0;
+            description = "Student Programmer, Business Ops Stategist, Currently at @FlatironSchool";
+            entities =             {
+                description =                 {
+                    urls =                     (
+                    );
+                };
+                url =                 {
+                    urls =                     (
+                                                {
+                            "display_url" = "georgetoothman.github.io";
+                            "expanded_url" = "http://georgetoothman.github.io";
+                            indices =                             (
+                                0,
+                                22
+                            );
+                            url = "http://t.co/EQCRS6keGw";
+                        }
+                    );
+                };
+            };
+            "favourites_count" = 181;
+            "follow_request_sent" = "<null>";
+            "followers_count" = 78;
+            following = "<null>";
+            "friends_count" = 282;
+            "geo_enabled" = 1;
+            "has_extended_profile" = 0;
+            id = 182077114;
+            "id_str" = 182077114;
+            "is_translation_enabled" = 0;
+            "is_translator" = 0;
+            lang = en;
+            "listed_count" = 3;
+            location = "New York, NY";
+            name = "George Toothman";
+            notifications = "<null>";
+            "profile_background_color" = C0DEED;
+            "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_tile" = 0;
+            "profile_banner_url" = "https://pbs.twimg.com/profile_banners/182077114/1431091210";
+            "profile_image_url" = "http://pbs.twimg.com/profile_images/463498027093618689/p44-bNfk_normal.jpeg";
+            "profile_image_url_https" = "https://pbs.twimg.com/profile_images/463498027093618689/p44-bNfk_normal.jpeg";
+            "profile_link_color" = 0084B4;
+            "profile_sidebar_border_color" = C0DEED;
+            "profile_sidebar_fill_color" = DDEEF6;
+            "profile_text_color" = 333333;
+            "profile_use_background_image" = 1;
+            protected = 0;
+            "screen_name" = georgetoothman;
+            "statuses_count" = 290;
+            "time_zone" = Amsterdam;
+            url = "http://t.co/EQCRS6keGw";
+            "utc_offset" = 7200;
+            verified = 0;
+        };
+    },
+        {
+        contributors = "<null>";
+        coordinates = "<null>";
+        "created_at" = "Fri Sep 11 14:02:59 +0000 2015";
+        entities =         {
+            hashtags =             (
+            );
+            symbols =             (
+            );
+            urls =             (
+                                {
+                    "display_url" = "medium.com/@supzann3/atom\U2026";
+                    "expanded_url" = "https://medium.com/@supzann3/atom-packages-for-web-developers-4c539df66532?source=tw-ba9c6ea205db-1441980164592";
+                    indices =                     (
+                        47,
+                        70
+                    );
+                    url = "https://t.co/B4ZtQ8qlB0";
+                }
+            );
+            "user_mentions" =             (
+                                {
+                    id = 702354494;
+                    "id_str" = 702354494;
+                    indices =                     (
+                        71,
+                        86
+                    );
+                    name = "Flatiron School";
+                    "screen_name" = FlatironSchool;
+                }
+            );
+        };
+        "favorite_count" = 0;
+        favorited = 0;
+        geo = "<null>";
+        id = 642337545708285952;
+        "id_str" = 642337545708285952;
+        "in_reply_to_screen_name" = "<null>";
+        "in_reply_to_status_id" = "<null>";
+        "in_reply_to_status_id_str" = "<null>";
+        "in_reply_to_user_id" = "<null>";
+        "in_reply_to_user_id_str" = "<null>";
+        "is_quote_status" = 0;
+        lang = en;
+        metadata =         {
+            "iso_language_code" = en;
+            "result_type" = recent;
+        };
+        place = "<null>";
+        "possibly_sensitive" = 0;
+        "retweet_count" = 0;
+        retweeted = 0;
+        source = "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>";
+        text = "\U201cAtom Packages for Web Developers\U201d by Susan He https://t.co/B4ZtQ8qlB0 @flatironschool";
+        truncated = 0;
+        user =         {
+            "contributors_enabled" = 0;
+            "created_at" = "Thu Jan 24 19:20:48 +0000 2013";
+            "default_profile" = 1;
+            "default_profile_image" = 0;
+            description = "Big-Pharma-turned-Health-Tech-Evangelist. Formerly @GSK Future Leaders Program. Currently @FlatironSchool.";
+            entities =             {
+                description =                 {
+                    urls =                     (
+                    );
+                };
+            };
+            "favourites_count" = 517;
+            "follow_request_sent" = "<null>";
+            "followers_count" = 120;
+            following = "<null>";
+            "friends_count" = 334;
+            "geo_enabled" = 1;
+            "has_extended_profile" = 0;
+            id = 1117547258;
+            "id_str" = 1117547258;
+            "is_translation_enabled" = 0;
+            "is_translator" = 0;
+            lang = en;
+            "listed_count" = 34;
+            location = "New York";
+            name = "Matthew  Krey";
+            notifications = "<null>";
+            "profile_background_color" = C0DEED;
+            "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_tile" = 0;
+            "profile_banner_url" = "https://pbs.twimg.com/profile_banners/1117547258/1441943321";
+            "profile_image_url" = "http://pbs.twimg.com/profile_images/642182474173431808/v9Pw25Pk_normal.jpg";
+            "profile_image_url_https" = "https://pbs.twimg.com/profile_images/642182474173431808/v9Pw25Pk_normal.jpg";
+            "profile_link_color" = 0084B4;
+            "profile_sidebar_border_color" = C0DEED;
+            "profile_sidebar_fill_color" = DDEEF6;
+            "profile_text_color" = 333333;
+            "profile_use_background_image" = 1;
+            protected = 0;
+            "screen_name" = Reelkreyz;
+            "statuses_count" = 354;
+            "time_zone" = "Eastern Time (US & Canada)";
+            url = "<null>";
+            "utc_offset" = "-14400";
+            verified = 0;
+        };
+    },
+        {
+        contributors = "<null>";
+        coordinates = "<null>";
+        "created_at" = "Fri Sep 11 02:07:19 +0000 2015";
+        entities =         {
+            hashtags =             (
+            );
+            media =             (
+                                {
+                    "display_url" = "pic.twitter.com/TyJdZjsZrz";
+                    "expanded_url" = "http://twitter.com/FlatironSchool/status/642113505538240512/photo/1";
+                    id = 642113500148445184;
+                    "id_str" = 642113500148445184;
+                    indices =                     (
+                        73,
+                        95
+                    );
+                    "media_url" = "http://pbs.twimg.com/media/COk-04nUsAAWTrl.jpg";
+                    "media_url_https" = "https://pbs.twimg.com/media/COk-04nUsAAWTrl.jpg";
+                    sizes =                     {
+                        large =                         {
+                            h = 790;
+                            resize = fit;
+                            w = 1024;
+                        };
+                        medium =                         {
+                            h = 462;
+                            resize = fit;
+                            w = 600;
+                        };
+                        small =                         {
+                            h = 262;
+                            resize = fit;
+                            w = 340;
+                        };
+                        thumb =                         {
+                            h = 150;
+                            resize = crop;
+                            w = 150;
+                        };
+                    };
+                    "source_status_id" = 642113505538240512;
+                    "source_status_id_str" = 642113505538240512;
+                    "source_user_id" = 702354494;
+                    "source_user_id_str" = 702354494;
+                    type = photo;
+                    url = "http://t.co/TyJdZjsZrz";
+                }
+            );
+            symbols =             (
+            );
+            urls =             (
+            );
+            "user_mentions" =             (
+                                {
+                    id = 702354494;
+                    "id_str" = 702354494;
+                    indices =                     (
+                        3,
+                        18
+                    );
+                    name = "Flatiron School";
+                    "screen_name" = FlatironSchool;
+                },
+                                {
+                    id = 1117449589;
+                    "id_str" = 1117449589;
+                    indices =                     (
+                        34,
+                        44
+                    );
+                    name = "Out In Tech";
+                    "screen_name" = OutInTech;
+                },
+                                {
+                    id = 702354494;
+                    "id_str" = 702354494;
+                    indices =                     (
+                        48,
+                        63
+                    );
+                    name = "Flatiron School";
+                    "screen_name" = FlatironSchool;
+                }
+            );
+        };
+        "favorite_count" = 0;
+        favorited = 0;
+        geo = "<null>";
+        id = 642157441023537152;
+        "id_str" = 642157441023537152;
+        "in_reply_to_screen_name" = "<null>";
+        "in_reply_to_status_id" = "<null>";
+        "in_reply_to_status_id_str" = "<null>";
+        "in_reply_to_user_id" = "<null>";
+        "in_reply_to_user_id_str" = "<null>";
+        "is_quote_status" = 0;
+        lang = en;
+        metadata =         {
+            "iso_language_code" = en;
+            "result_type" = recent;
+        };
+        place = "<null>";
+        "possibly_sensitive" = 0;
+        "retweet_count" = 3;
+        retweeted = 0;
+        "retweeted_status" =         {
+            contributors = "<null>";
+            coordinates = "<null>";
+            "created_at" = "Thu Sep 10 23:12:44 +0000 2015";
+            entities =             {
+                hashtags =                 (
+                );
+                media =                 (
+                                        {
+                        "display_url" = "pic.twitter.com/TyJdZjsZrz";
+                        "expanded_url" = "http://twitter.com/FlatironSchool/status/642113505538240512/photo/1";
+                        id = 642113500148445184;
+                        "id_str" = 642113500148445184;
+                        indices =                         (
+                            53,
+                            75
+                        );
+                        "media_url" = "http://pbs.twimg.com/media/COk-04nUsAAWTrl.jpg";
+                        "media_url_https" = "https://pbs.twimg.com/media/COk-04nUsAAWTrl.jpg";
+                        sizes =                         {
+                            large =                             {
+                                h = 790;
+                                resize = fit;
+                                w = 1024;
+                            };
+                            medium =                             {
+                                h = 462;
+                                resize = fit;
+                                w = 600;
+                            };
+                            small =                             {
+                                h = 262;
+                                resize = fit;
+                                w = 340;
+                            };
+                            thumb =                             {
+                                h = 150;
+                                resize = crop;
+                                w = 150;
+                            };
+                        };
+                        type = photo;
+                        url = "http://t.co/TyJdZjsZrz";
+                    }
+                );
+                symbols =                 (
+                );
+                urls =                 (
+                );
+                "user_mentions" =                 (
+                                        {
+                        id = 1117449589;
+                        "id_str" = 1117449589;
+                        indices =                         (
+                            14,
+                            24
+                        );
+                        name = "Out In Tech";
+                        "screen_name" = OutInTech;
+                    },
+                                        {
+                        id = 702354494;
+                        "id_str" = 702354494;
+                        indices =                         (
+                            28,
+                            43
+                        );
+                        name = "Flatiron School";
+                        "screen_name" = FlatironSchool;
+                    }
+                );
+            };
+            "favorite_count" = 5;
+            favorited = 0;
+            geo = "<null>";
+            id = 642113505538240512;
+            "id_str" = 642113505538240512;
+            "in_reply_to_screen_name" = "<null>";
+            "in_reply_to_status_id" = "<null>";
+            "in_reply_to_status_id_str" = "<null>";
+            "in_reply_to_user_id" = "<null>";
+            "in_reply_to_user_id_str" = "<null>";
+            "is_quote_status" = 0;
+            lang = en;
+            metadata =             {
+                "iso_language_code" = en;
+                "result_type" = recent;
+            };
+            place = "<null>";
+            "possibly_sensitive" = 0;
+            "retweet_count" = 3;
+            retweeted = 0;
+            source = "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>";
+            text = "Lovely having @OutInTech at @FlatironSchool tonight! http://t.co/TyJdZjsZrz";
+            truncated = 0;
+            user =             {
+                "contributors_enabled" = 0;
+                "created_at" = "Wed Jul 18 04:30:04 +0000 2012";
+                "default_profile" = 0;
+                "default_profile_image" = 0;
+                description = "Make yourself useful.";
+                entities =                 {
+                    description =                     {
+                        urls =                         (
+                        );
+                    };
+                    url =                     {
+                        urls =                         (
+                                                        {
+                                "display_url" = "flatironschool.com";
+                                "expanded_url" = "http://www.flatironschool.com";
+                                indices =                                 (
+                                    0,
+                                    22
+                                );
+                                url = "http://t.co/3UKW3hS1Zn";
+                            }
+                        );
+                    };
+                };
+                "favourites_count" = 1663;
+                "follow_request_sent" = "<null>";
+                "followers_count" = 5096;
+                following = "<null>";
+                "friends_count" = 530;
+                "geo_enabled" = 1;
+                "has_extended_profile" = 0;
+                id = 702354494;
+                "id_str" = 702354494;
+                "is_translation_enabled" = 0;
+                "is_translator" = 0;
+                lang = en;
+                "listed_count" = 209;
+                location = NYC;
+                name = "Flatiron School";
+                notifications = "<null>";
+                "profile_background_color" = 000000;
+                "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+                "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+                "profile_background_tile" = 0;
+                "profile_banner_url" = "https://pbs.twimg.com/profile_banners/702354494/1418841304";
+                "profile_image_url" = "http://pbs.twimg.com/profile_images/544985527997304833/0DNfZq49_normal.png";
+                "profile_image_url_https" = "https://pbs.twimg.com/profile_images/544985527997304833/0DNfZq49_normal.png";
+                "profile_link_color" = 00B3E6;
+                "profile_sidebar_border_color" = 000000;
+                "profile_sidebar_fill_color" = 000000;
+                "profile_text_color" = 000000;
+                "profile_use_background_image" = 0;
+                protected = 0;
+                "screen_name" = FlatironSchool;
+                "statuses_count" = 2977;
+                "time_zone" = "<null>";
+                url = "http://t.co/3UKW3hS1Zn";
+                "utc_offset" = "<null>";
+                verified = 0;
+            };
+        };
+        source = "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>";
+        text = "RT @FlatironSchool: Lovely having @OutInTech at @FlatironSchool tonight! http://t.co/TyJdZjsZrz";
+        truncated = 0;
+        user =         {
+            "contributors_enabled" = 0;
+            "created_at" = "Thu Jul 30 21:40:02 +0000 2015";
+            "default_profile" = 1;
+            "default_profile_image" = 0;
+            description = "USNavy - 60's chick  - desert lizard  - travel binger - student of life -\nSan Francisco was my teacher";
+            entities =             {
+                description =                 {
+                    urls =                     (
+                    );
+                };
+            };
+            "favourites_count" = 31;
+            "follow_request_sent" = "<null>";
+            "followers_count" = 13;
+            following = "<null>";
+            "friends_count" = 51;
+            "geo_enabled" = 0;
+            "has_extended_profile" = 0;
+            id = 3396141753;
+            "id_str" = 3396141753;
+            "is_translation_enabled" = 0;
+            "is_translator" = 0;
+            lang = en;
+            "listed_count" = 0;
+            location = "Las Vegas, NV";
+            name = "Elle Mitchell";
+            notifications = "<null>";
+            "profile_background_color" = C0DEED;
+            "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_tile" = 0;
+            "profile_banner_url" = "https://pbs.twimg.com/profile_banners/3396141753/1438298022";
+            "profile_image_url" = "http://pbs.twimg.com/profile_images/626877504888795137/dS6Jx40X_normal.jpg";
+            "profile_image_url_https" = "https://pbs.twimg.com/profile_images/626877504888795137/dS6Jx40X_normal.jpg";
+            "profile_link_color" = 0084B4;
+            "profile_sidebar_border_color" = C0DEED;
+            "profile_sidebar_fill_color" = DDEEF6;
+            "profile_text_color" = 333333;
+            "profile_use_background_image" = 1;
+            protected = 0;
+            "screen_name" = "lv_elle60";
+            "statuses_count" = 115;
+            "time_zone" = "<null>";
+            url = "<null>";
+            "utc_offset" = "<null>";
+            verified = 0;
+        };
+    },
+        {
+        contributors = "<null>";
+        coordinates = "<null>";
+        "created_at" = "Fri Sep 11 01:37:23 +0000 2015";
+        entities =         {
+            hashtags =             (
+            );
+            media =             (
+                                {
+                    "display_url" = "pic.twitter.com/TyJdZjsZrz";
+                    "expanded_url" = "http://twitter.com/FlatironSchool/status/642113505538240512/photo/1";
+                    id = 642113500148445184;
+                    "id_str" = 642113500148445184;
+                    indices =                     (
+                        73,
+                        95
+                    );
+                    "media_url" = "http://pbs.twimg.com/media/COk-04nUsAAWTrl.jpg";
+                    "media_url_https" = "https://pbs.twimg.com/media/COk-04nUsAAWTrl.jpg";
+                    sizes =                     {
+                        large =                         {
+                            h = 790;
+                            resize = fit;
+                            w = 1024;
+                        };
+                        medium =                         {
+                            h = 462;
+                            resize = fit;
+                            w = 600;
+                        };
+                        small =                         {
+                            h = 262;
+                            resize = fit;
+                            w = 340;
+                        };
+                        thumb =                         {
+                            h = 150;
+                            resize = crop;
+                            w = 150;
+                        };
+                    };
+                    "source_status_id" = 642113505538240512;
+                    "source_status_id_str" = 642113505538240512;
+                    "source_user_id" = 702354494;
+                    "source_user_id_str" = 702354494;
+                    type = photo;
+                    url = "http://t.co/TyJdZjsZrz";
+                }
+            );
+            symbols =             (
+            );
+            urls =             (
+            );
+            "user_mentions" =             (
+                                {
+                    id = 702354494;
+                    "id_str" = 702354494;
+                    indices =                     (
+                        3,
+                        18
+                    );
+                    name = "Flatiron School";
+                    "screen_name" = FlatironSchool;
+                },
+                                {
+                    id = 1117449589;
+                    "id_str" = 1117449589;
+                    indices =                     (
+                        34,
+                        44
+                    );
+                    name = "Out In Tech";
+                    "screen_name" = OutInTech;
+                },
+                                {
+                    id = 702354494;
+                    "id_str" = 702354494;
+                    indices =                     (
+                        48,
+                        63
+                    );
+                    name = "Flatiron School";
+                    "screen_name" = FlatironSchool;
+                }
+            );
+        };
+        "favorite_count" = 0;
+        favorited = 0;
+        geo = "<null>";
+        id = 642149909743935488;
+        "id_str" = 642149909743935488;
+        "in_reply_to_screen_name" = "<null>";
+        "in_reply_to_status_id" = "<null>";
+        "in_reply_to_status_id_str" = "<null>";
+        "in_reply_to_user_id" = "<null>";
+        "in_reply_to_user_id_str" = "<null>";
+        "is_quote_status" = 0;
+        lang = en;
+        metadata =         {
+            "iso_language_code" = en;
+            "result_type" = recent;
+        };
+        place = "<null>";
+        "possibly_sensitive" = 0;
+        "retweet_count" = 3;
+        retweeted = 0;
+        "retweeted_status" =         {
+            contributors = "<null>";
+            coordinates = "<null>";
+            "created_at" = "Thu Sep 10 23:12:44 +0000 2015";
+            entities =             {
+                hashtags =                 (
+                );
+                media =                 (
+                                        {
+                        "display_url" = "pic.twitter.com/TyJdZjsZrz";
+                        "expanded_url" = "http://twitter.com/FlatironSchool/status/642113505538240512/photo/1";
+                        id = 642113500148445184;
+                        "id_str" = 642113500148445184;
+                        indices =                         (
+                            53,
+                            75
+                        );
+                        "media_url" = "http://pbs.twimg.com/media/COk-04nUsAAWTrl.jpg";
+                        "media_url_https" = "https://pbs.twimg.com/media/COk-04nUsAAWTrl.jpg";
+                        sizes =                         {
+                            large =                             {
+                                h = 790;
+                                resize = fit;
+                                w = 1024;
+                            };
+                            medium =                             {
+                                h = 462;
+                                resize = fit;
+                                w = 600;
+                            };
+                            small =                             {
+                                h = 262;
+                                resize = fit;
+                                w = 340;
+                            };
+                            thumb =                             {
+                                h = 150;
+                                resize = crop;
+                                w = 150;
+                            };
+                        };
+                        type = photo;
+                        url = "http://t.co/TyJdZjsZrz";
+                    }
+                );
+                symbols =                 (
+                );
+                urls =                 (
+                );
+                "user_mentions" =                 (
+                                        {
+                        id = 1117449589;
+                        "id_str" = 1117449589;
+                        indices =                         (
+                            14,
+                            24
+                        );
+                        name = "Out In Tech";
+                        "screen_name" = OutInTech;
+                    },
+                                        {
+                        id = 702354494;
+                        "id_str" = 702354494;
+                        indices =                         (
+                            28,
+                            43
+                        );
+                        name = "Flatiron School";
+                        "screen_name" = FlatironSchool;
+                    }
+                );
+            };
+            "favorite_count" = 5;
+            favorited = 0;
+            geo = "<null>";
+            id = 642113505538240512;
+            "id_str" = 642113505538240512;
+            "in_reply_to_screen_name" = "<null>";
+            "in_reply_to_status_id" = "<null>";
+            "in_reply_to_status_id_str" = "<null>";
+            "in_reply_to_user_id" = "<null>";
+            "in_reply_to_user_id_str" = "<null>";
+            "is_quote_status" = 0;
+            lang = en;
+            metadata =             {
+                "iso_language_code" = en;
+                "result_type" = recent;
+            };
+            place = "<null>";
+            "possibly_sensitive" = 0;
+            "retweet_count" = 3;
+            retweeted = 0;
+            source = "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>";
+            text = "Lovely having @OutInTech at @FlatironSchool tonight! http://t.co/TyJdZjsZrz";
+            truncated = 0;
+            user =             {
+                "contributors_enabled" = 0;
+                "created_at" = "Wed Jul 18 04:30:04 +0000 2012";
+                "default_profile" = 0;
+                "default_profile_image" = 0;
+                description = "Make yourself useful.";
+                entities =                 {
+                    description =                     {
+                        urls =                         (
+                        );
+                    };
+                    url =                     {
+                        urls =                         (
+                                                        {
+                                "display_url" = "flatironschool.com";
+                                "expanded_url" = "http://www.flatironschool.com";
+                                indices =                                 (
+                                    0,
+                                    22
+                                );
+                                url = "http://t.co/3UKW3hS1Zn";
+                            }
+                        );
+                    };
+                };
+                "favourites_count" = 1663;
+                "follow_request_sent" = "<null>";
+                "followers_count" = 5096;
+                following = "<null>";
+                "friends_count" = 530;
+                "geo_enabled" = 1;
+                "has_extended_profile" = 0;
+                id = 702354494;
+                "id_str" = 702354494;
+                "is_translation_enabled" = 0;
+                "is_translator" = 0;
+                lang = en;
+                "listed_count" = 209;
+                location = NYC;
+                name = "Flatiron School";
+                notifications = "<null>";
+                "profile_background_color" = 000000;
+                "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+                "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+                "profile_background_tile" = 0;
+                "profile_banner_url" = "https://pbs.twimg.com/profile_banners/702354494/1418841304";
+                "profile_image_url" = "http://pbs.twimg.com/profile_images/544985527997304833/0DNfZq49_normal.png";
+                "profile_image_url_https" = "https://pbs.twimg.com/profile_images/544985527997304833/0DNfZq49_normal.png";
+                "profile_link_color" = 00B3E6;
+                "profile_sidebar_border_color" = 000000;
+                "profile_sidebar_fill_color" = 000000;
+                "profile_text_color" = 000000;
+                "profile_use_background_image" = 0;
+                protected = 0;
+                "screen_name" = FlatironSchool;
+                "statuses_count" = 2977;
+                "time_zone" = "<null>";
+                url = "http://t.co/3UKW3hS1Zn";
+                "utc_offset" = "<null>";
+                verified = 0;
+            };
+        };
+        source = "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>";
+        text = "RT @FlatironSchool: Lovely having @OutInTech at @FlatironSchool tonight! http://t.co/TyJdZjsZrz";
+        truncated = 0;
+        user =         {
+            "contributors_enabled" = 0;
+            "created_at" = "Sun Aug 12 08:20:31 +0000 2012";
+            "default_profile" = 0;
+            "default_profile_image" = 0;
+            description = "Biz Dev @FlatironSchool (NYC) // Formerly @WashSpeakers (DC) & #CreativeArtistsAgency (LA) // Born in 305";
+            entities =             {
+                description =                 {
+                    urls =                     (
+                    );
+                };
+            };
+            "favourites_count" = 1285;
+            "follow_request_sent" = "<null>";
+            "followers_count" = 302;
+            following = "<null>";
+            "friends_count" = 995;
+            "geo_enabled" = 0;
+            "has_extended_profile" = 0;
+            id = 752725662;
+            "id_str" = 752725662;
+            "is_translation_enabled" = 0;
+            "is_translator" = 0;
+            lang = en;
+            "listed_count" = 10;
+            location = "New York, NY";
+            name = "Joe Lehr";
+            notifications = "<null>";
+            "profile_background_color" = 000000;
+            "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_tile" = 0;
+            "profile_banner_url" = "https://pbs.twimg.com/profile_banners/752725662/1354917221";
+            "profile_image_url" = "http://pbs.twimg.com/profile_images/558480090976509952/dsJWUtv3_normal.jpeg";
+            "profile_image_url_https" = "https://pbs.twimg.com/profile_images/558480090976509952/dsJWUtv3_normal.jpeg";
+            "profile_link_color" = 89C9FA;
+            "profile_sidebar_border_color" = 000000;
+            "profile_sidebar_fill_color" = 000000;
+            "profile_text_color" = 000000;
+            "profile_use_background_image" = 0;
+            protected = 0;
+            "screen_name" = HustleYussel;
+            "statuses_count" = 1057;
+            "time_zone" = "Eastern Time (US & Canada)";
+            url = "<null>";
+            "utc_offset" = "-14400";
+            verified = 0;
+        };
+    },
+        {
+        contributors = "<null>";
+        coordinates = "<null>";
+        "created_at" = "Fri Sep 11 00:53:41 +0000 2015";
+        entities =         {
+            hashtags =             (
+                                {
+                    indices =                     (
+                        36,
+                        51
+                    );
+                    text = KodeWithKarlie;
+                }
+            );
+            media =             (
+                                {
+                    "display_url" = "pic.twitter.com/DiHuhr2Ibj";
+                    "expanded_url" = "http://twitter.com/FlatironSchool/status/642038122180706304/photo/1";
+                    id = 642038121702494208;
+                    "id_str" = 642038121702494208;
+                    indices =                     (
+                        139,
+                        140
+                    );
+                    "media_url" = "http://pbs.twimg.com/media/COj6RSBWEAAyAp3.png";
+                    "media_url_https" = "https://pbs.twimg.com/media/COj6RSBWEAAyAp3.png";
+                    sizes =                     {
+                        large =                         {
+                            h = 667;
+                            resize = fit;
+                            w = 984;
+                        };
+                        medium =                         {
+                            h = 406;
+                            resize = fit;
+                            w = 600;
+                        };
+                        small =                         {
+                            h = 230;
+                            resize = fit;
+                            w = 340;
+                        };
+                        thumb =                         {
+                            h = 150;
+                            resize = crop;
+                            w = 150;
+                        };
+                    };
+                    "source_status_id" = 642038122180706304;
+                    "source_status_id_str" = 642038122180706304;
+                    "source_user_id" = 702354494;
+                    "source_user_id_str" = 702354494;
+                    type = photo;
+                    url = "http://t.co/DiHuhr2Ibj";
+                }
+            );
+            symbols =             (
+            );
+            urls =             (
+                                {
+                    "display_url" = "hubs.ly/H018Xh40";
+                    "expanded_url" = "http://hubs.ly/H018Xh40";
+                    indices =                     (
+                        114,
+                        136
+                    );
+                    url = "http://t.co/vQd2fuhjal";
+                }
+            );
+            "user_mentions" =             (
+                                {
+                    id = 702354494;
+                    "id_str" = 702354494;
+                    indices =                     (
+                        3,
+                        18
+                    );
+                    name = "Flatiron School";
+                    "screen_name" = FlatironSchool;
+                }
+            );
+        };
+        "favorite_count" = 0;
+        favorited = 0;
+        geo = "<null>";
+        id = 642138913381949441;
+        "id_str" = 642138913381949441;
+        "in_reply_to_screen_name" = "<null>";
+        "in_reply_to_status_id" = "<null>";
+        "in_reply_to_status_id_str" = "<null>";
+        "in_reply_to_user_id" = "<null>";
+        "in_reply_to_user_id_str" = "<null>";
+        "is_quote_status" = 0;
+        lang = en;
+        metadata =         {
+            "iso_language_code" = en;
+            "result_type" = recent;
+        };
+        place = "<null>";
+        "possibly_sensitive" = 0;
+        "retweet_count" = 12;
+        retweeted = 0;
+        "retweeted_status" =         {
+            contributors = "<null>";
+            coordinates = "<null>";
+            "created_at" = "Thu Sep 10 18:13:11 +0000 2015";
+            entities =             {
+                hashtags =                 (
+                                        {
+                        indices =                         (
+                            16,
+                            31
+                        );
+                        text = KodeWithKarlie;
+                    }
+                );
+                media =                 (
+                                        {
+                        "display_url" = "pic.twitter.com/DiHuhr2Ibj";
+                        "expanded_url" = "http://twitter.com/FlatironSchool/status/642038122180706304/photo/1";
+                        id = 642038121702494208;
+                        "id_str" = 642038121702494208;
+                        indices =                         (
+                            117,
+                            139
+                        );
+                        "media_url" = "http://pbs.twimg.com/media/COj6RSBWEAAyAp3.png";
+                        "media_url_https" = "https://pbs.twimg.com/media/COj6RSBWEAAyAp3.png";
+                        sizes =                         {
+                            large =                             {
+                                h = 667;
+                                resize = fit;
+                                w = 984;
+                            };
+                            medium =                             {
+                                h = 406;
+                                resize = fit;
+                                w = 600;
+                            };
+                            small =                             {
+                                h = 230;
+                                resize = fit;
+                                w = 340;
+                            };
+                            thumb =                             {
+                                h = 150;
+                                resize = crop;
+                                w = 150;
+                            };
+                        };
+                        type = photo;
+                        url = "http://t.co/DiHuhr2Ibj";
+                    }
+                );
+                symbols =                 (
+                );
+                urls =                 (
+                                        {
+                        "display_url" = "hubs.ly/H018Xh40";
+                        "expanded_url" = "http://hubs.ly/H018Xh40";
+                        indices =                         (
+                            94,
+                            116
+                        );
+                        url = "http://t.co/vQd2fuhjal";
+                    }
+                );
+                "user_mentions" =                 (
+                );
+            };
+            "favorite_count" = 19;
+            favorited = 0;
+            geo = "<null>";
+            id = 642038122180706304;
+            "id_str" = 642038122180706304;
+            "in_reply_to_screen_name" = "<null>";
+            "in_reply_to_status_id" = "<null>";
+            "in_reply_to_status_id_str" = "<null>";
+            "in_reply_to_user_id" = "<null>";
+            "in_reply_to_user_id_str" = "<null>";
+            "is_quote_status" = 0;
+            lang = en;
+            metadata =             {
+                "iso_language_code" = en;
+                "result_type" = recent;
+            };
+            place = "<null>";
+            "possibly_sensitive" = 0;
+            "retweet_count" = 12;
+            retweeted = 0;
+            source = "<a href=\"http://www.hubspot.com/\" rel=\"nofollow\">HubSpot</a>";
+            text = "This summer, 21 #KodeWithKarlie scholars learned to be software engineers. See their stories: http://t.co/vQd2fuhjal http://t.co/DiHuhr2Ibj";
+            truncated = 0;
+            user =             {
+                "contributors_enabled" = 0;
+                "created_at" = "Wed Jul 18 04:30:04 +0000 2012";
+                "default_profile" = 0;
+                "default_profile_image" = 0;
+                description = "Make yourself useful.";
+                entities =                 {
+                    description =                     {
+                        urls =                         (
+                        );
+                    };
+                    url =                     {
+                        urls =                         (
+                                                        {
+                                "display_url" = "flatironschool.com";
+                                "expanded_url" = "http://www.flatironschool.com";
+                                indices =                                 (
+                                    0,
+                                    22
+                                );
+                                url = "http://t.co/3UKW3hS1Zn";
+                            }
+                        );
+                    };
+                };
+                "favourites_count" = 1663;
+                "follow_request_sent" = "<null>";
+                "followers_count" = 5096;
+                following = "<null>";
+                "friends_count" = 530;
+                "geo_enabled" = 1;
+                "has_extended_profile" = 0;
+                id = 702354494;
+                "id_str" = 702354494;
+                "is_translation_enabled" = 0;
+                "is_translator" = 0;
+                lang = en;
+                "listed_count" = 209;
+                location = NYC;
+                name = "Flatiron School";
+                notifications = "<null>";
+                "profile_background_color" = 000000;
+                "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+                "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+                "profile_background_tile" = 0;
+                "profile_banner_url" = "https://pbs.twimg.com/profile_banners/702354494/1418841304";
+                "profile_image_url" = "http://pbs.twimg.com/profile_images/544985527997304833/0DNfZq49_normal.png";
+                "profile_image_url_https" = "https://pbs.twimg.com/profile_images/544985527997304833/0DNfZq49_normal.png";
+                "profile_link_color" = 00B3E6;
+                "profile_sidebar_border_color" = 000000;
+                "profile_sidebar_fill_color" = 000000;
+                "profile_text_color" = 000000;
+                "profile_use_background_image" = 0;
+                protected = 0;
+                "screen_name" = FlatironSchool;
+                "statuses_count" = 2977;
+                "time_zone" = "<null>";
+                url = "http://t.co/3UKW3hS1Zn";
+                "utc_offset" = "<null>";
+                verified = 0;
+            };
+        };
+        source = "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>";
+        text = "RT @FlatironSchool: This summer, 21 #KodeWithKarlie scholars learned to be software engineers. See their stories: http://t.co/vQd2fuhjal ht\U2026";
+        truncated = 0;
+        user =         {
+            "contributors_enabled" = 0;
+            "created_at" = "Sun Jan 27 01:49:05 +0000 2013";
+            "default_profile" = 0;
+            "default_profile_image" = 0;
+            description = "I used to believe that it was all so complicated...  until I started to stop worrying so much!!!!!!! I'm so freaking smart...";
+            entities =             {
+                description =                 {
+                    urls =                     (
+                    );
+                };
+            };
+            "favourites_count" = 977;
+            "follow_request_sent" = "<null>";
+            "followers_count" = 861;
+            following = "<null>";
+            "friends_count" = 1950;
+            "geo_enabled" = 1;
+            "has_extended_profile" = 0;
+            id = 1123695121;
+            "id_str" = 1123695121;
+            "is_translation_enabled" = 0;
+            "is_translator" = 0;
+            lang = es;
+            "listed_count" = 3;
+            location = argentina;
+            name = SomewhereWeOnlyKnow;
+            notifications = "<null>";
+            "profile_background_color" = C0DEED;
+            "profile_background_image_url" = "http://pbs.twimg.com/profile_background_images/636722698354302976/8s60Ch98.jpg";
+            "profile_background_image_url_https" = "https://pbs.twimg.com/profile_background_images/636722698354302976/8s60Ch98.jpg";
+            "profile_background_tile" = 1;
+            "profile_banner_url" = "https://pbs.twimg.com/profile_banners/1123695121/1430268597";
+            "profile_image_url" = "http://pbs.twimg.com/profile_images/629493879549612032/JPUjTUIX_normal.jpg";
+            "profile_image_url_https" = "https://pbs.twimg.com/profile_images/629493879549612032/JPUjTUIX_normal.jpg";
+            "profile_link_color" = 9266CC;
+            "profile_sidebar_border_color" = FFFFFF;
+            "profile_sidebar_fill_color" = DDEEF6;
+            "profile_text_color" = 333333;
+            "profile_use_background_image" = 1;
+            protected = 0;
+            "screen_name" = tammus28;
+            "statuses_count" = 9716;
+            "time_zone" = "Buenos Aires";
+            url = "<null>";
+            "utc_offset" = "-10800";
+            verified = 0;
+        };
+    },
+        {
+        contributors = "<null>";
+        coordinates = "<null>";
+        "created_at" = "Fri Sep 11 00:41:02 +0000 2015";
+        entities =         {
+            hashtags =             (
+                                {
+                    indices =                     (
+                        81,
+                        88
+                    );
+                    text = Coding;
+                }
+            );
+            symbols =             (
+            );
+            urls =             (
+                                {
+                    "display_url" = "tech.mg/YdDyQH";
+                    "expanded_url" = "http://tech.mg/YdDyQH";
+                    indices =                     (
+                        97,
+                        119
+                    );
+                    url = "http://t.co/HlGA66g460";
+                }
+            );
+            "user_mentions" =             (
+                                {
+                    id = 702354494;
+                    "id_str" = 702354494;
+                    indices =                     (
+                        17,
+                        32
+                    );
+                    name = "Flatiron School";
+                    "screen_name" = FlatironSchool;
+                },
+                                {
+                    id = 714284239;
+                    "id_str" = 714284239;
+                    indices =                     (
+                        120,
+                        128
+                    );
+                    name = "ashlie casbar";
+                    "screen_name" = ACasbar;
+                }
+            );
+        };
+        "favorite_count" = 2;
+        favorited = 0;
+        geo = "<null>";
+        id = 642135726096826368;
+        "id_str" = 642135726096826368;
+        "in_reply_to_screen_name" = "<null>";
+        "in_reply_to_status_id" = "<null>";
+        "in_reply_to_status_id_str" = "<null>";
+        "in_reply_to_user_id" = "<null>";
+        "in_reply_to_user_id_str" = "<null>";
+        "is_quote_status" = 0;
+        lang = en;
+        metadata =         {
+            "iso_language_code" = en;
+            "result_type" = recent;
+        };
+        place = "<null>";
+        "possibly_sensitive" = 0;
+        "retweet_count" = 1;
+        retweeted = 0;
+        source = "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>";
+        text = "New schools like @FlatIronSchool are thriving by giving students what they want: #Coding clas... http://t.co/HlGA66g460 @ACasbar";
+        truncated = 0;
+        user =         {
+            "contributors_enabled" = 0;
+            "created_at" = "Sat Mar 21 19:54:46 +0000 2015";
+            "default_profile" = 1;
+            "default_profile_image" = 0;
+            description = "";
+            entities =             {
+                description =                 {
+                    urls =                     (
+                    );
+                };
+                url =                 {
+                    urls =                     (
+                                                {
+                            "display_url" = "monroelocalschools.com/schools/elemen\U2026";
+                            "expanded_url" = "http://www.monroelocalschools.com/schools/elementary";
+                            indices =                             (
+                                0,
+                                22
+                            );
+                            url = "http://t.co/eVdAdXyAvj";
+                        }
+                    );
+                };
+            };
+            "favourites_count" = 6;
+            "follow_request_sent" = "<null>";
+            "followers_count" = 76;
+            following = "<null>";
+            "friends_count" = 5;
+            "geo_enabled" = 0;
+            "has_extended_profile" = 0;
+            id = 3102597315;
+            "id_str" = 3102597315;
+            "is_translation_enabled" = 0;
+            "is_translator" = 0;
+            lang = en;
+            "listed_count" = 0;
+            location = "";
+            name = MESTeaching;
+            notifications = "<null>";
+            "profile_background_color" = C0DEED;
+            "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_tile" = 0;
+            "profile_image_url" = "http://pbs.twimg.com/profile_images/579370838551441409/vkt2rD9b_normal.png";
+            "profile_image_url_https" = "https://pbs.twimg.com/profile_images/579370838551441409/vkt2rD9b_normal.png";
+            "profile_link_color" = 0084B4;
+            "profile_sidebar_border_color" = C0DEED;
+            "profile_sidebar_fill_color" = DDEEF6;
+            "profile_text_color" = 333333;
+            "profile_use_background_image" = 1;
+            protected = 0;
+            "screen_name" = mesteaching;
+            "statuses_count" = 311;
+            "time_zone" = "<null>";
+            url = "http://t.co/eVdAdXyAvj";
+            "utc_offset" = "<null>";
+            verified = 0;
+        };
+    },
+        {
+        contributors = "<null>";
+        coordinates = "<null>";
+        "created_at" = "Fri Sep 11 00:38:18 +0000 2015";
+        entities =         {
+            hashtags =             (
+                                {
+                    indices =                     (
+                        36,
+                        51
+                    );
+                    text = KodeWithKarlie;
+                }
+            );
+            media =             (
+                                {
+                    "display_url" = "pic.twitter.com/DiHuhr2Ibj";
+                    "expanded_url" = "http://twitter.com/FlatironSchool/status/642038122180706304/photo/1";
+                    id = 642038121702494208;
+                    "id_str" = 642038121702494208;
+                    indices =                     (
+                        139,
+                        140
+                    );
+                    "media_url" = "http://pbs.twimg.com/media/COj6RSBWEAAyAp3.png";
+                    "media_url_https" = "https://pbs.twimg.com/media/COj6RSBWEAAyAp3.png";
+                    sizes =                     {
+                        large =                         {
+                            h = 667;
+                            resize = fit;
+                            w = 984;
+                        };
+                        medium =                         {
+                            h = 406;
+                            resize = fit;
+                            w = 600;
+                        };
+                        small =                         {
+                            h = 230;
+                            resize = fit;
+                            w = 340;
+                        };
+                        thumb =                         {
+                            h = 150;
+                            resize = crop;
+                            w = 150;
+                        };
+                    };
+                    "source_status_id" = 642038122180706304;
+                    "source_status_id_str" = 642038122180706304;
+                    "source_user_id" = 702354494;
+                    "source_user_id_str" = 702354494;
+                    type = photo;
+                    url = "http://t.co/DiHuhr2Ibj";
+                }
+            );
+            symbols =             (
+            );
+            urls =             (
+                                {
+                    "display_url" = "hubs.ly/H018Xh40";
+                    "expanded_url" = "http://hubs.ly/H018Xh40";
+                    indices =                     (
+                        114,
+                        136
+                    );
+                    url = "http://t.co/vQd2fuhjal";
+                }
+            );
+            "user_mentions" =             (
+                                {
+                    id = 702354494;
+                    "id_str" = 702354494;
+                    indices =                     (
+                        3,
+                        18
+                    );
+                    name = "Flatiron School";
+                    "screen_name" = FlatironSchool;
+                }
+            );
+        };
+        "favorite_count" = 0;
+        favorited = 0;
+        geo = "<null>";
+        id = 642135040441323520;
+        "id_str" = 642135040441323520;
+        "in_reply_to_screen_name" = "<null>";
+        "in_reply_to_status_id" = "<null>";
+        "in_reply_to_status_id_str" = "<null>";
+        "in_reply_to_user_id" = "<null>";
+        "in_reply_to_user_id_str" = "<null>";
+        "is_quote_status" = 0;
+        lang = en;
+        metadata =         {
+            "iso_language_code" = en;
+            "result_type" = recent;
+        };
+        place = "<null>";
+        "possibly_sensitive" = 0;
+        "retweet_count" = 12;
+        retweeted = 0;
+        "retweeted_status" =         {
+            contributors = "<null>";
+            coordinates = "<null>";
+            "created_at" = "Thu Sep 10 18:13:11 +0000 2015";
+            entities =             {
+                hashtags =                 (
+                                        {
+                        indices =                         (
+                            16,
+                            31
+                        );
+                        text = KodeWithKarlie;
+                    }
+                );
+                media =                 (
+                                        {
+                        "display_url" = "pic.twitter.com/DiHuhr2Ibj";
+                        "expanded_url" = "http://twitter.com/FlatironSchool/status/642038122180706304/photo/1";
+                        id = 642038121702494208;
+                        "id_str" = 642038121702494208;
+                        indices =                         (
+                            117,
+                            139
+                        );
+                        "media_url" = "http://pbs.twimg.com/media/COj6RSBWEAAyAp3.png";
+                        "media_url_https" = "https://pbs.twimg.com/media/COj6RSBWEAAyAp3.png";
+                        sizes =                         {
+                            large =                             {
+                                h = 667;
+                                resize = fit;
+                                w = 984;
+                            };
+                            medium =                             {
+                                h = 406;
+                                resize = fit;
+                                w = 600;
+                            };
+                            small =                             {
+                                h = 230;
+                                resize = fit;
+                                w = 340;
+                            };
+                            thumb =                             {
+                                h = 150;
+                                resize = crop;
+                                w = 150;
+                            };
+                        };
+                        type = photo;
+                        url = "http://t.co/DiHuhr2Ibj";
+                    }
+                );
+                symbols =                 (
+                );
+                urls =                 (
+                                        {
+                        "display_url" = "hubs.ly/H018Xh40";
+                        "expanded_url" = "http://hubs.ly/H018Xh40";
+                        indices =                         (
+                            94,
+                            116
+                        );
+                        url = "http://t.co/vQd2fuhjal";
+                    }
+                );
+                "user_mentions" =                 (
+                );
+            };
+            "favorite_count" = 19;
+            favorited = 0;
+            geo = "<null>";
+            id = 642038122180706304;
+            "id_str" = 642038122180706304;
+            "in_reply_to_screen_name" = "<null>";
+            "in_reply_to_status_id" = "<null>";
+            "in_reply_to_status_id_str" = "<null>";
+            "in_reply_to_user_id" = "<null>";
+            "in_reply_to_user_id_str" = "<null>";
+            "is_quote_status" = 0;
+            lang = en;
+            metadata =             {
+                "iso_language_code" = en;
+                "result_type" = recent;
+            };
+            place = "<null>";
+            "possibly_sensitive" = 0;
+            "retweet_count" = 12;
+            retweeted = 0;
+            source = "<a href=\"http://www.hubspot.com/\" rel=\"nofollow\">HubSpot</a>";
+            text = "This summer, 21 #KodeWithKarlie scholars learned to be software engineers. See their stories: http://t.co/vQd2fuhjal http://t.co/DiHuhr2Ibj";
+            truncated = 0;
+            user =             {
+                "contributors_enabled" = 0;
+                "created_at" = "Wed Jul 18 04:30:04 +0000 2012";
+                "default_profile" = 0;
+                "default_profile_image" = 0;
+                description = "Make yourself useful.";
+                entities =                 {
+                    description =                     {
+                        urls =                         (
+                        );
+                    };
+                    url =                     {
+                        urls =                         (
+                                                        {
+                                "display_url" = "flatironschool.com";
+                                "expanded_url" = "http://www.flatironschool.com";
+                                indices =                                 (
+                                    0,
+                                    22
+                                );
+                                url = "http://t.co/3UKW3hS1Zn";
+                            }
+                        );
+                    };
+                };
+                "favourites_count" = 1663;
+                "follow_request_sent" = "<null>";
+                "followers_count" = 5096;
+                following = "<null>";
+                "friends_count" = 530;
+                "geo_enabled" = 1;
+                "has_extended_profile" = 0;
+                id = 702354494;
+                "id_str" = 702354494;
+                "is_translation_enabled" = 0;
+                "is_translator" = 0;
+                lang = en;
+                "listed_count" = 209;
+                location = NYC;
+                name = "Flatiron School";
+                notifications = "<null>";
+                "profile_background_color" = 000000;
+                "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+                "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+                "profile_background_tile" = 0;
+                "profile_banner_url" = "https://pbs.twimg.com/profile_banners/702354494/1418841304";
+                "profile_image_url" = "http://pbs.twimg.com/profile_images/544985527997304833/0DNfZq49_normal.png";
+                "profile_image_url_https" = "https://pbs.twimg.com/profile_images/544985527997304833/0DNfZq49_normal.png";
+                "profile_link_color" = 00B3E6;
+                "profile_sidebar_border_color" = 000000;
+                "profile_sidebar_fill_color" = 000000;
+                "profile_text_color" = 000000;
+                "profile_use_background_image" = 0;
+                protected = 0;
+                "screen_name" = FlatironSchool;
+                "statuses_count" = 2977;
+                "time_zone" = "<null>";
+                url = "http://t.co/3UKW3hS1Zn";
+                "utc_offset" = "<null>";
+                verified = 0;
+            };
+        };
+        source = "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>";
+        text = "RT @FlatironSchool: This summer, 21 #KodeWithKarlie scholars learned to be software engineers. See their stories: http://t.co/vQd2fuhjal ht\U2026";
+        truncated = 0;
+        user =         {
+            "contributors_enabled" = 0;
+            "created_at" = "Sat Aug 15 15:27:22 +0000 2015";
+            "default_profile" = 1;
+            "default_profile_image" = 0;
+            description = "";
+            entities =             {
+                description =                 {
+                    urls =                     (
+                    );
+                };
+            };
+            "favourites_count" = 2446;
+            "follow_request_sent" = "<null>";
+            "followers_count" = 16;
+            following = "<null>";
+            "friends_count" = 129;
+            "geo_enabled" = 0;
+            "has_extended_profile" = 1;
+            id = 3424196577;
+            "id_str" = 3424196577;
+            "is_translation_enabled" = 0;
+            "is_translator" = 0;
+            lang = fr;
+            "listed_count" = 2;
+            location = "Castres, Midi-Pyr\U00e9n\U00e9es, France";
+            name = "Xavier Laloyau";
+            notifications = "<null>";
+            "profile_background_color" = C0DEED;
+            "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_tile" = 0;
+            "profile_banner_url" = "https://pbs.twimg.com/profile_banners/3424196577/1440720291";
+            "profile_image_url" = "http://pbs.twimg.com/profile_images/637053196641411073/DX6Hsq3D_normal.jpg";
+            "profile_image_url_https" = "https://pbs.twimg.com/profile_images/637053196641411073/DX6Hsq3D_normal.jpg";
+            "profile_link_color" = 0084B4;
+            "profile_sidebar_border_color" = C0DEED;
+            "profile_sidebar_fill_color" = DDEEF6;
+            "profile_text_color" = 333333;
+            "profile_use_background_image" = 1;
+            protected = 0;
+            "screen_name" = XLaloyau;
+            "statuses_count" = 1849;
+            "time_zone" = "<null>";
+            url = "<null>";
+            "utc_offset" = "<null>";
+            verified = 0;
+        };
+    },
+        {
+        contributors = "<null>";
+        coordinates = "<null>";
+        "created_at" = "Fri Sep 11 00:29:59 +0000 2015";
+        entities =         {
+            hashtags =             (
+                                {
+                    indices =                     (
+                        36,
+                        51
+                    );
+                    text = KodeWithKarlie;
+                }
+            );
+            media =             (
+                                {
+                    "display_url" = "pic.twitter.com/DiHuhr2Ibj";
+                    "expanded_url" = "http://twitter.com/FlatironSchool/status/642038122180706304/photo/1";
+                    id = 642038121702494208;
+                    "id_str" = 642038121702494208;
+                    indices =                     (
+                        139,
+                        140
+                    );
+                    "media_url" = "http://pbs.twimg.com/media/COj6RSBWEAAyAp3.png";
+                    "media_url_https" = "https://pbs.twimg.com/media/COj6RSBWEAAyAp3.png";
+                    sizes =                     {
+                        large =                         {
+                            h = 667;
+                            resize = fit;
+                            w = 984;
+                        };
+                        medium =                         {
+                            h = 406;
+                            resize = fit;
+                            w = 600;
+                        };
+                        small =                         {
+                            h = 230;
+                            resize = fit;
+                            w = 340;
+                        };
+                        thumb =                         {
+                            h = 150;
+                            resize = crop;
+                            w = 150;
+                        };
+                    };
+                    "source_status_id" = 642038122180706304;
+                    "source_status_id_str" = 642038122180706304;
+                    "source_user_id" = 702354494;
+                    "source_user_id_str" = 702354494;
+                    type = photo;
+                    url = "http://t.co/DiHuhr2Ibj";
+                }
+            );
+            symbols =             (
+            );
+            urls =             (
+                                {
+                    "display_url" = "hubs.ly/H018Xh40";
+                    "expanded_url" = "http://hubs.ly/H018Xh40";
+                    indices =                     (
+                        114,
+                        136
+                    );
+                    url = "http://t.co/vQd2fuhjal";
+                }
+            );
+            "user_mentions" =             (
+                                {
+                    id = 702354494;
+                    "id_str" = 702354494;
+                    indices =                     (
+                        3,
+                        18
+                    );
+                    name = "Flatiron School";
+                    "screen_name" = FlatironSchool;
+                }
+            );
+        };
+        "favorite_count" = 0;
+        favorited = 0;
+        geo = "<null>";
+        id = 642132947185741824;
+        "id_str" = 642132947185741824;
+        "in_reply_to_screen_name" = "<null>";
+        "in_reply_to_status_id" = "<null>";
+        "in_reply_to_status_id_str" = "<null>";
+        "in_reply_to_user_id" = "<null>";
+        "in_reply_to_user_id_str" = "<null>";
+        "is_quote_status" = 0;
+        lang = en;
+        metadata =         {
+            "iso_language_code" = en;
+            "result_type" = recent;
+        };
+        place = "<null>";
+        "possibly_sensitive" = 0;
+        "retweet_count" = 12;
+        retweeted = 0;
+        "retweeted_status" =         {
+            contributors = "<null>";
+            coordinates = "<null>";
+            "created_at" = "Thu Sep 10 18:13:11 +0000 2015";
+            entities =             {
+                hashtags =                 (
+                                        {
+                        indices =                         (
+                            16,
+                            31
+                        );
+                        text = KodeWithKarlie;
+                    }
+                );
+                media =                 (
+                                        {
+                        "display_url" = "pic.twitter.com/DiHuhr2Ibj";
+                        "expanded_url" = "http://twitter.com/FlatironSchool/status/642038122180706304/photo/1";
+                        id = 642038121702494208;
+                        "id_str" = 642038121702494208;
+                        indices =                         (
+                            117,
+                            139
+                        );
+                        "media_url" = "http://pbs.twimg.com/media/COj6RSBWEAAyAp3.png";
+                        "media_url_https" = "https://pbs.twimg.com/media/COj6RSBWEAAyAp3.png";
+                        sizes =                         {
+                            large =                             {
+                                h = 667;
+                                resize = fit;
+                                w = 984;
+                            };
+                            medium =                             {
+                                h = 406;
+                                resize = fit;
+                                w = 600;
+                            };
+                            small =                             {
+                                h = 230;
+                                resize = fit;
+                                w = 340;
+                            };
+                            thumb =                             {
+                                h = 150;
+                                resize = crop;
+                                w = 150;
+                            };
+                        };
+                        type = photo;
+                        url = "http://t.co/DiHuhr2Ibj";
+                    }
+                );
+                symbols =                 (
+                );
+                urls =                 (
+                                        {
+                        "display_url" = "hubs.ly/H018Xh40";
+                        "expanded_url" = "http://hubs.ly/H018Xh40";
+                        indices =                         (
+                            94,
+                            116
+                        );
+                        url = "http://t.co/vQd2fuhjal";
+                    }
+                );
+                "user_mentions" =                 (
+                );
+            };
+            "favorite_count" = 19;
+            favorited = 0;
+            geo = "<null>";
+            id = 642038122180706304;
+            "id_str" = 642038122180706304;
+            "in_reply_to_screen_name" = "<null>";
+            "in_reply_to_status_id" = "<null>";
+            "in_reply_to_status_id_str" = "<null>";
+            "in_reply_to_user_id" = "<null>";
+            "in_reply_to_user_id_str" = "<null>";
+            "is_quote_status" = 0;
+            lang = en;
+            metadata =             {
+                "iso_language_code" = en;
+                "result_type" = recent;
+            };
+            place = "<null>";
+            "possibly_sensitive" = 0;
+            "retweet_count" = 12;
+            retweeted = 0;
+            source = "<a href=\"http://www.hubspot.com/\" rel=\"nofollow\">HubSpot</a>";
+            text = "This summer, 21 #KodeWithKarlie scholars learned to be software engineers. See their stories: http://t.co/vQd2fuhjal http://t.co/DiHuhr2Ibj";
+            truncated = 0;
+            user =             {
+                "contributors_enabled" = 0;
+                "created_at" = "Wed Jul 18 04:30:04 +0000 2012";
+                "default_profile" = 0;
+                "default_profile_image" = 0;
+                description = "Make yourself useful.";
+                entities =                 {
+                    description =                     {
+                        urls =                         (
+                        );
+                    };
+                    url =                     {
+                        urls =                         (
+                                                        {
+                                "display_url" = "flatironschool.com";
+                                "expanded_url" = "http://www.flatironschool.com";
+                                indices =                                 (
+                                    0,
+                                    22
+                                );
+                                url = "http://t.co/3UKW3hS1Zn";
+                            }
+                        );
+                    };
+                };
+                "favourites_count" = 1663;
+                "follow_request_sent" = "<null>";
+                "followers_count" = 5096;
+                following = "<null>";
+                "friends_count" = 530;
+                "geo_enabled" = 1;
+                "has_extended_profile" = 0;
+                id = 702354494;
+                "id_str" = 702354494;
+                "is_translation_enabled" = 0;
+                "is_translator" = 0;
+                lang = en;
+                "listed_count" = 209;
+                location = NYC;
+                name = "Flatiron School";
+                notifications = "<null>";
+                "profile_background_color" = 000000;
+                "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+                "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+                "profile_background_tile" = 0;
+                "profile_banner_url" = "https://pbs.twimg.com/profile_banners/702354494/1418841304";
+                "profile_image_url" = "http://pbs.twimg.com/profile_images/544985527997304833/0DNfZq49_normal.png";
+                "profile_image_url_https" = "https://pbs.twimg.com/profile_images/544985527997304833/0DNfZq49_normal.png";
+                "profile_link_color" = 00B3E6;
+                "profile_sidebar_border_color" = 000000;
+                "profile_sidebar_fill_color" = 000000;
+                "profile_text_color" = 000000;
+                "profile_use_background_image" = 0;
+                protected = 0;
+                "screen_name" = FlatironSchool;
+                "statuses_count" = 2977;
+                "time_zone" = "<null>";
+                url = "http://t.co/3UKW3hS1Zn";
+                "utc_offset" = "<null>";
+                verified = 0;
+            };
+        };
+        source = "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>";
+        text = "RT @FlatironSchool: This summer, 21 #KodeWithKarlie scholars learned to be software engineers. See their stories: http://t.co/vQd2fuhjal ht\U2026";
+        truncated = 0;
+        user =         {
+            "contributors_enabled" = 0;
+            "created_at" = "Sat Mar 07 03:30:09 +0000 2015";
+            "default_profile" = 0;
+            "default_profile_image" = 0;
+            description = "100% Sunshine";
+            entities =             {
+                description =                 {
+                    urls =                     (
+                    );
+                };
+                url =                 {
+                    urls =                     (
+                                                {
+                            "display_url" = "sunshinekarliekloss.com";
+                            "expanded_url" = "http://sunshinekarliekloss.com";
+                            indices =                             (
+                                0,
+                                22
+                            );
+                            url = "http://t.co/IPHWexXG6E";
+                        }
+                    );
+                };
+            };
+            "favourites_count" = 209;
+            "follow_request_sent" = "<null>";
+            "followers_count" = 527;
+            following = "<null>";
+            "friends_count" = 127;
+            "geo_enabled" = 0;
+            "has_extended_profile" = 0;
+            id = 3065783552;
+            "id_str" = 3065783552;
+            "is_translation_enabled" = 0;
+            "is_translator" = 0;
+            lang = en;
+            "listed_count" = 3;
+            location = Worldwide;
+            name = SunshineKarlieKloss;
+            notifications = "<null>";
+            "profile_background_color" = 000000;
+            "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_tile" = 0;
+            "profile_banner_url" = "https://pbs.twimg.com/profile_banners/3065783552/1431211153";
+            "profile_image_url" = "http://pbs.twimg.com/profile_images/574077944768765954/vDnAyh54_normal.jpeg";
+            "profile_image_url_https" = "https://pbs.twimg.com/profile_images/574077944768765954/vDnAyh54_normal.jpeg";
+            "profile_link_color" = FA743E;
+            "profile_sidebar_border_color" = 000000;
+            "profile_sidebar_fill_color" = 000000;
+            "profile_text_color" = 000000;
+            "profile_use_background_image" = 0;
+            protected = 0;
+            "screen_name" = SunshineKloss;
+            "statuses_count" = 830;
+            "time_zone" = Yakutsk;
+            url = "http://t.co/IPHWexXG6E";
+            "utc_offset" = 32400;
+            verified = 0;
+        };
+    },
+        {
+        contributors = "<null>";
+        coordinates = "<null>";
+        "created_at" = "Fri Sep 11 00:14:45 +0000 2015";
+        entities =         {
+            hashtags =             (
+                                {
+                    indices =                     (
+                        36,
+                        51
+                    );
+                    text = KodeWithKarlie;
+                }
+            );
+            media =             (
+                                {
+                    "display_url" = "pic.twitter.com/DiHuhr2Ibj";
+                    "expanded_url" = "http://twitter.com/FlatironSchool/status/642038122180706304/photo/1";
+                    id = 642038121702494208;
+                    "id_str" = 642038121702494208;
+                    indices =                     (
+                        139,
+                        140
+                    );
+                    "media_url" = "http://pbs.twimg.com/media/COj6RSBWEAAyAp3.png";
+                    "media_url_https" = "https://pbs.twimg.com/media/COj6RSBWEAAyAp3.png";
+                    sizes =                     {
+                        large =                         {
+                            h = 667;
+                            resize = fit;
+                            w = 984;
+                        };
+                        medium =                         {
+                            h = 406;
+                            resize = fit;
+                            w = 600;
+                        };
+                        small =                         {
+                            h = 230;
+                            resize = fit;
+                            w = 340;
+                        };
+                        thumb =                         {
+                            h = 150;
+                            resize = crop;
+                            w = 150;
+                        };
+                    };
+                    "source_status_id" = 642038122180706304;
+                    "source_status_id_str" = 642038122180706304;
+                    "source_user_id" = 702354494;
+                    "source_user_id_str" = 702354494;
+                    type = photo;
+                    url = "http://t.co/DiHuhr2Ibj";
+                }
+            );
+            symbols =             (
+            );
+            urls =             (
+                                {
+                    "display_url" = "hubs.ly/H018Xh40";
+                    "expanded_url" = "http://hubs.ly/H018Xh40";
+                    indices =                     (
+                        114,
+                        136
+                    );
+                    url = "http://t.co/vQd2fuhjal";
+                }
+            );
+            "user_mentions" =             (
+                                {
+                    id = 702354494;
+                    "id_str" = 702354494;
+                    indices =                     (
+                        3,
+                        18
+                    );
+                    name = "Flatiron School";
+                    "screen_name" = FlatironSchool;
+                }
+            );
+        };
+        "favorite_count" = 0;
+        favorited = 0;
+        geo = "<null>";
+        id = 642129112618897409;
+        "id_str" = 642129112618897409;
+        "in_reply_to_screen_name" = "<null>";
+        "in_reply_to_status_id" = "<null>";
+        "in_reply_to_status_id_str" = "<null>";
+        "in_reply_to_user_id" = "<null>";
+        "in_reply_to_user_id_str" = "<null>";
+        "is_quote_status" = 0;
+        lang = en;
+        metadata =         {
+            "iso_language_code" = en;
+            "result_type" = recent;
+        };
+        place = "<null>";
+        "possibly_sensitive" = 0;
+        "retweet_count" = 12;
+        retweeted = 0;
+        "retweeted_status" =         {
+            contributors = "<null>";
+            coordinates = "<null>";
+            "created_at" = "Thu Sep 10 18:13:11 +0000 2015";
+            entities =             {
+                hashtags =                 (
+                                        {
+                        indices =                         (
+                            16,
+                            31
+                        );
+                        text = KodeWithKarlie;
+                    }
+                );
+                media =                 (
+                                        {
+                        "display_url" = "pic.twitter.com/DiHuhr2Ibj";
+                        "expanded_url" = "http://twitter.com/FlatironSchool/status/642038122180706304/photo/1";
+                        id = 642038121702494208;
+                        "id_str" = 642038121702494208;
+                        indices =                         (
+                            117,
+                            139
+                        );
+                        "media_url" = "http://pbs.twimg.com/media/COj6RSBWEAAyAp3.png";
+                        "media_url_https" = "https://pbs.twimg.com/media/COj6RSBWEAAyAp3.png";
+                        sizes =                         {
+                            large =                             {
+                                h = 667;
+                                resize = fit;
+                                w = 984;
+                            };
+                            medium =                             {
+                                h = 406;
+                                resize = fit;
+                                w = 600;
+                            };
+                            small =                             {
+                                h = 230;
+                                resize = fit;
+                                w = 340;
+                            };
+                            thumb =                             {
+                                h = 150;
+                                resize = crop;
+                                w = 150;
+                            };
+                        };
+                        type = photo;
+                        url = "http://t.co/DiHuhr2Ibj";
+                    }
+                );
+                symbols =                 (
+                );
+                urls =                 (
+                                        {
+                        "display_url" = "hubs.ly/H018Xh40";
+                        "expanded_url" = "http://hubs.ly/H018Xh40";
+                        indices =                         (
+                            94,
+                            116
+                        );
+                        url = "http://t.co/vQd2fuhjal";
+                    }
+                );
+                "user_mentions" =                 (
+                );
+            };
+            "favorite_count" = 19;
+            favorited = 0;
+            geo = "<null>";
+            id = 642038122180706304;
+            "id_str" = 642038122180706304;
+            "in_reply_to_screen_name" = "<null>";
+            "in_reply_to_status_id" = "<null>";
+            "in_reply_to_status_id_str" = "<null>";
+            "in_reply_to_user_id" = "<null>";
+            "in_reply_to_user_id_str" = "<null>";
+            "is_quote_status" = 0;
+            lang = en;
+            metadata =             {
+                "iso_language_code" = en;
+                "result_type" = recent;
+            };
+            place = "<null>";
+            "possibly_sensitive" = 0;
+            "retweet_count" = 12;
+            retweeted = 0;
+            source = "<a href=\"http://www.hubspot.com/\" rel=\"nofollow\">HubSpot</a>";
+            text = "This summer, 21 #KodeWithKarlie scholars learned to be software engineers. See their stories: http://t.co/vQd2fuhjal http://t.co/DiHuhr2Ibj";
+            truncated = 0;
+            user =             {
+                "contributors_enabled" = 0;
+                "created_at" = "Wed Jul 18 04:30:04 +0000 2012";
+                "default_profile" = 0;
+                "default_profile_image" = 0;
+                description = "Make yourself useful.";
+                entities =                 {
+                    description =                     {
+                        urls =                         (
+                        );
+                    };
+                    url =                     {
+                        urls =                         (
+                                                        {
+                                "display_url" = "flatironschool.com";
+                                "expanded_url" = "http://www.flatironschool.com";
+                                indices =                                 (
+                                    0,
+                                    22
+                                );
+                                url = "http://t.co/3UKW3hS1Zn";
+                            }
+                        );
+                    };
+                };
+                "favourites_count" = 1663;
+                "follow_request_sent" = "<null>";
+                "followers_count" = 5096;
+                following = "<null>";
+                "friends_count" = 530;
+                "geo_enabled" = 1;
+                "has_extended_profile" = 0;
+                id = 702354494;
+                "id_str" = 702354494;
+                "is_translation_enabled" = 0;
+                "is_translator" = 0;
+                lang = en;
+                "listed_count" = 209;
+                location = NYC;
+                name = "Flatiron School";
+                notifications = "<null>";
+                "profile_background_color" = 000000;
+                "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+                "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+                "profile_background_tile" = 0;
+                "profile_banner_url" = "https://pbs.twimg.com/profile_banners/702354494/1418841304";
+                "profile_image_url" = "http://pbs.twimg.com/profile_images/544985527997304833/0DNfZq49_normal.png";
+                "profile_image_url_https" = "https://pbs.twimg.com/profile_images/544985527997304833/0DNfZq49_normal.png";
+                "profile_link_color" = 00B3E6;
+                "profile_sidebar_border_color" = 000000;
+                "profile_sidebar_fill_color" = 000000;
+                "profile_text_color" = 000000;
+                "profile_use_background_image" = 0;
+                protected = 0;
+                "screen_name" = FlatironSchool;
+                "statuses_count" = 2977;
+                "time_zone" = "<null>";
+                url = "http://t.co/3UKW3hS1Zn";
+                "utc_offset" = "<null>";
+                verified = 0;
+            };
+        };
+        source = "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>";
+        text = "RT @FlatironSchool: This summer, 21 #KodeWithKarlie scholars learned to be software engineers. See their stories: http://t.co/vQd2fuhjal ht\U2026";
+        truncated = 0;
+        user =         {
+            "contributors_enabled" = 0;
+            "created_at" = "Sat May 25 18:56:00 +0000 2013";
+            "default_profile" = 0;
+            "default_profile_image" = 0;
+            description = "";
+            entities =             {
+                description =                 {
+                    urls =                     (
+                    );
+                };
+            };
+            "favourites_count" = 103;
+            "follow_request_sent" = "<null>";
+            "followers_count" = 52;
+            following = "<null>";
+            "friends_count" = 447;
+            "geo_enabled" = 0;
+            "has_extended_profile" = 0;
+            id = 1457764578;
+            "id_str" = 1457764578;
+            "is_translation_enabled" = 0;
+            "is_translator" = 0;
+            lang = "zh-tw";
+            "listed_count" = 9;
+            location = "";
+            name = sharonannhh;
+            notifications = "<null>";
+            "profile_background_color" = 561515;
+            "profile_background_image_url" = "http://pbs.twimg.com/profile_background_images/619867786265755648/5k3B7oav.jpg";
+            "profile_background_image_url_https" = "https://pbs.twimg.com/profile_background_images/619867786265755648/5k3B7oav.jpg";
+            "profile_background_tile" = 0;
+            "profile_banner_url" = "https://pbs.twimg.com/profile_banners/1457764578/1440840791";
+            "profile_image_url" = "http://pbs.twimg.com/profile_images/629509697259700224/F5cbmja8_normal.png";
+            "profile_image_url_https" = "https://pbs.twimg.com/profile_images/629509697259700224/F5cbmja8_normal.png";
+            "profile_link_color" = 190707;
+            "profile_sidebar_border_color" = EEEEEE;
+            "profile_sidebar_fill_color" = EFEFEF;
+            "profile_text_color" = 333333;
+            "profile_use_background_image" = 0;
+            protected = 0;
+            "screen_name" = sharonhhann;
+            "statuses_count" = 1345;
+            "time_zone" = Krasnoyarsk;
+            url = "<null>";
+            "utc_offset" = 25200;
+            verified = 0;
+        };
+    },
+        {
+        contributors = "<null>";
+        coordinates = "<null>";
+        "created_at" = "Thu Sep 10 23:28:37 +0000 2015";
+        entities =         {
+            hashtags =             (
+            );
+            media =             (
+                                {
+                    "display_url" = "pic.twitter.com/SSSXwLZI2R";
+                    "expanded_url" = "http://twitter.com/joshcogs/status/642117503553007617/photo/1";
+                    id = 642117467624636416;
+                    "id_str" = 642117467624636416;
+                    indices =                     (
+                        59,
+                        81
+                    );
+                    "media_url" = "http://pbs.twimg.com/media/COlCb0nXAAAJdOd.jpg";
+                    "media_url_https" = "https://pbs.twimg.com/media/COlCb0nXAAAJdOd.jpg";
+                    sizes =                     {
+                        large =                         {
+                            h = 784;
+                            resize = fit;
+                            w = 1024;
+                        };
+                        medium =                         {
+                            h = 459;
+                            resize = fit;
+                            w = 600;
+                        };
+                        small =                         {
+                            h = 260;
+                            resize = fit;
+                            w = 340;
+                        };
+                        thumb =                         {
+                            h = 150;
+                            resize = crop;
+                            w = 150;
+                        };
+                    };
+                    type = photo;
+                    url = "http://t.co/SSSXwLZI2R";
+                }
+            );
+            symbols =             (
+            );
+            urls =             (
+            );
+            "user_mentions" =             (
+                                {
+                    id = 1117449589;
+                    "id_str" = 1117449589;
+                    indices =                     (
+                        27,
+                        37
+                    );
+                    name = "Out In Tech";
+                    "screen_name" = OutInTech;
+                },
+                                {
+                    id = 702354494;
+                    "id_str" = 702354494;
+                    indices =                     (
+                        43,
+                        58
+                    );
+                    name = "Flatiron School";
+                    "screen_name" = FlatironSchool;
+                }
+            );
+        };
+        "favorite_count" = 2;
+        favorited = 0;
+        geo = "<null>";
+        id = 642117503553007617;
+        "id_str" = 642117503553007617;
+        "in_reply_to_screen_name" = "<null>";
+        "in_reply_to_status_id" = "<null>";
+        "in_reply_to_status_id_str" = "<null>";
+        "in_reply_to_user_id" = "<null>";
+        "in_reply_to_user_id_str" = "<null>";
+        "is_quote_status" = 0;
+        lang = en;
+        metadata =         {
+            "iso_language_code" = en;
+            "result_type" = recent;
+        };
+        place = "<null>";
+        "possibly_sensitive" = 0;
+        "retweet_count" = 0;
+        retweeted = 0;
+        source = "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>";
+        text = "Hacking &amp; telling with @OutInTech chez @FlatironSchool http://t.co/SSSXwLZI2R";
+        truncated = 0;
+        user =         {
+            "contributors_enabled" = 0;
+            "created_at" = "Thu May 01 18:46:26 +0000 2008";
+            "default_profile" = 0;
+            "default_profile_image" = 0;
+            description = "Locally sourced television with a generous pour of product design.  With love, Josh Cogswell";
+            entities =             {
+                description =                 {
+                    urls =                     (
+                    );
+                };
+                url =                 {
+                    urls =                     (
+                                                {
+                            "display_url" = "joshcogs.com";
+                            "expanded_url" = "http://joshcogs.com";
+                            indices =                             (
+                                0,
+                                22
+                            );
+                            url = "http://t.co/GhBsdnk0uV";
+                        }
+                    );
+                };
+            };
+            "favourites_count" = 9;
+            "follow_request_sent" = "<null>";
+            "followers_count" = 3182;
+            following = "<null>";
+            "friends_count" = 167;
+            "geo_enabled" = 1;
+            "has_extended_profile" = 0;
+            id = 14617851;
+            "id_str" = 14617851;
+            "is_translation_enabled" = 0;
+            "is_translator" = 0;
+            lang = en;
+            "listed_count" = 2;
+            location = nyc;
+            name = "Josh Cogswell";
+            notifications = "<null>";
+            "profile_background_color" = 022330;
+            "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme15/bg.png";
+            "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme15/bg.png";
+            "profile_background_tile" = 0;
+            "profile_banner_url" = "https://pbs.twimg.com/profile_banners/14617851/1422927297";
+            "profile_image_url" = "http://pbs.twimg.com/profile_images/597788813323272192/nM3f7u1i_normal.jpg";
+            "profile_image_url_https" = "https://pbs.twimg.com/profile_images/597788813323272192/nM3f7u1i_normal.jpg";
+            "profile_link_color" = 0084B4;
+            "profile_sidebar_border_color" = A8C7F7;
+            "profile_sidebar_fill_color" = C0DFEC;
+            "profile_text_color" = 333333;
+            "profile_use_background_image" = 1;
+            protected = 0;
+            "screen_name" = joshcogs;
+            "statuses_count" = 163;
+            "time_zone" = Quito;
+            url = "http://t.co/GhBsdnk0uV";
+            "utc_offset" = "-18000";
+            verified = 0;
+        };
+    },
+        {
+        contributors = "<null>";
+        coordinates = "<null>";
+        "created_at" = "Thu Sep 10 23:27:59 +0000 2015";
+        entities =         {
+            hashtags =             (
+            );
+            media =             (
+                                {
+                    "display_url" = "pic.twitter.com/NJLpLqhDuO";
+                    "expanded_url" = "http://twitter.com/LukasThoms/status/642117343347347456/photo/1";
+                    id = 642117338158927872;
+                    "id_str" = 642117338158927872;
+                    indices =                     (
+                        107,
+                        129
+                    );
+                    "media_url" = "http://pbs.twimg.com/media/COlCUSUVEAAMLl6.jpg";
+                    "media_url_https" = "https://pbs.twimg.com/media/COlCUSUVEAAMLl6.jpg";
+                    sizes =                     {
+                        large =                         {
+                            h = 508;
+                            resize = fit;
+                            w = 1024;
+                        };
+                        medium =                         {
+                            h = 297;
+                            resize = fit;
+                            w = 600;
+                        };
+                        small =                         {
+                            h = 168;
+                            resize = fit;
+                            w = 340;
+                        };
+                        thumb =                         {
+                            h = 150;
+                            resize = crop;
+                            w = 150;
+                        };
+                    };
+                    type = photo;
+                    url = "http://t.co/NJLpLqhDuO";
+                }
+            );
+            symbols =             (
+            );
+            urls =             (
+            );
+            "user_mentions" =             (
+                                {
+                    id = 1117449589;
+                    "id_str" = 1117449589;
+                    indices =                     (
+                        1,
+                        11
+                    );
+                    name = "Out In Tech";
+                    "screen_name" = OutInTech;
+                },
+                                {
+                    id = 702354494;
+                    "id_str" = 702354494;
+                    indices =                     (
+                        50,
+                        65
+                    );
+                    name = "Flatiron School";
+                    "screen_name" = FlatironSchool;
+                }
+            );
+        };
+        "favorite_count" = 0;
+        favorited = 0;
+        geo = "<null>";
+        id = 642117343347347456;
+        "id_str" = 642117343347347456;
+        "in_reply_to_screen_name" = "<null>";
+        "in_reply_to_status_id" = "<null>";
+        "in_reply_to_status_id_str" = "<null>";
+        "in_reply_to_user_id" = "<null>";
+        "in_reply_to_user_id_str" = "<null>";
+        "is_quote_status" = 0;
+        lang = en;
+        metadata =         {
+            "iso_language_code" = en;
+            "result_type" = recent;
+        };
+        place = "<null>";
+        "possibly_sensitive" = 0;
+        "retweet_count" = 0;
+        retweeted = 0;
+        source = "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>";
+        text = ".@OutInTech's first Demos and Drinks kicks off at @FlatironSchool with a full house and great demo lineup! http://t.co/NJLpLqhDuO";
+        truncated = 0;
+        user =         {
+            "contributors_enabled" = 0;
+            "created_at" = "Mon Mar 09 15:26:39 +0000 2009";
+            "default_profile" = 0;
+            "default_profile_image" = 0;
+            description = "President and co-founder @OutInTech. iOS developer. Breakfast sandwich evangelist. Formerly @PCH_Intl, @GrandSt, @Fab. lower case = i'm joking/trolling";
+            entities =             {
+                description =                 {
+                    urls =                     (
+                    );
+                };
+                url =                 {
+                    urls =                     (
+                                                {
+                            "display_url" = "about.me/lukasthoms";
+                            "expanded_url" = "http://about.me/lukasthoms";
+                            indices =                             (
+                                0,
+                                22
+                            );
+                            url = "http://t.co/Sm20jEe9La";
+                        }
+                    );
+                };
+            };
+            "favourites_count" = 12012;
+            "follow_request_sent" = "<null>";
+            "followers_count" = 959;
+            following = "<null>";
+            "friends_count" = 692;
+            "geo_enabled" = 1;
+            "has_extended_profile" = 0;
+            id = 23447493;
+            "id_str" = 23447493;
+            "is_translation_enabled" = 0;
+            "is_translator" = 0;
+            lang = en;
+            "listed_count" = 37;
+            location = "Brooklyn, NY";
+            name = "lukas madbod thoms";
+            notifications = "<null>";
+            "profile_background_color" = 18447A;
+            "profile_background_image_url" = "http://pbs.twimg.com/profile_background_images/378800000155479643/iJC1o8xm.png";
+            "profile_background_image_url_https" = "https://pbs.twimg.com/profile_background_images/378800000155479643/iJC1o8xm.png";
+            "profile_background_tile" = 1;
+            "profile_banner_url" = "https://pbs.twimg.com/profile_banners/23447493/1391903857";
+            "profile_image_url" = "http://pbs.twimg.com/profile_images/637686220315840512/jhJXjhEG_normal.jpg";
+            "profile_image_url_https" = "https://pbs.twimg.com/profile_images/637686220315840512/jhJXjhEG_normal.jpg";
+            "profile_link_color" = 444A52;
+            "profile_sidebar_border_color" = FFFFFF;
+            "profile_sidebar_fill_color" = E6F6F9;
+            "profile_text_color" = 333333;
+            "profile_use_background_image" = 1;
+            protected = 0;
+            "screen_name" = LukasThoms;
+            "statuses_count" = 20321;
+            "time_zone" = Quito;
+            url = "http://t.co/Sm20jEe9La";
+            "utc_offset" = "-18000";
+            verified = 0;
+        };
+    },
+        {
+        contributors = "<null>";
+        coordinates = "<null>";
+        "created_at" = "Thu Sep 10 23:25:27 +0000 2015";
+        entities =         {
+            hashtags =             (
+            );
+            media =             (
+                                {
+                    "display_url" = "pic.twitter.com/TyJdZjsZrz";
+                    "expanded_url" = "http://twitter.com/FlatironSchool/status/642113505538240512/photo/1";
+                    id = 642113500148445184;
+                    "id_str" = 642113500148445184;
+                    indices =                     (
+                        73,
+                        95
+                    );
+                    "media_url" = "http://pbs.twimg.com/media/COk-04nUsAAWTrl.jpg";
+                    "media_url_https" = "https://pbs.twimg.com/media/COk-04nUsAAWTrl.jpg";
+                    sizes =                     {
+                        large =                         {
+                            h = 790;
+                            resize = fit;
+                            w = 1024;
+                        };
+                        medium =                         {
+                            h = 462;
+                            resize = fit;
+                            w = 600;
+                        };
+                        small =                         {
+                            h = 262;
+                            resize = fit;
+                            w = 340;
+                        };
+                        thumb =                         {
+                            h = 150;
+                            resize = crop;
+                            w = 150;
+                        };
+                    };
+                    "source_status_id" = 642113505538240512;
+                    "source_status_id_str" = 642113505538240512;
+                    "source_user_id" = 702354494;
+                    "source_user_id_str" = 702354494;
+                    type = photo;
+                    url = "http://t.co/TyJdZjsZrz";
+                }
+            );
+            symbols =             (
+            );
+            urls =             (
+            );
+            "user_mentions" =             (
+                                {
+                    id = 702354494;
+                    "id_str" = 702354494;
+                    indices =                     (
+                        3,
+                        18
+                    );
+                    name = "Flatiron School";
+                    "screen_name" = FlatironSchool;
+                },
+                                {
+                    id = 1117449589;
+                    "id_str" = 1117449589;
+                    indices =                     (
+                        34,
+                        44
+                    );
+                    name = "Out In Tech";
+                    "screen_name" = OutInTech;
+                },
+                                {
+                    id = 702354494;
+                    "id_str" = 702354494;
+                    indices =                     (
+                        48,
+                        63
+                    );
+                    name = "Flatiron School";
+                    "screen_name" = FlatironSchool;
+                }
+            );
+        };
+        "favorite_count" = 0;
+        favorited = 0;
+        geo = "<null>";
+        id = 642116707897745409;
+        "id_str" = 642116707897745409;
+        "in_reply_to_screen_name" = "<null>";
+        "in_reply_to_status_id" = "<null>";
+        "in_reply_to_status_id_str" = "<null>";
+        "in_reply_to_user_id" = "<null>";
+        "in_reply_to_user_id_str" = "<null>";
+        "is_quote_status" = 0;
+        lang = en;
+        metadata =         {
+            "iso_language_code" = en;
+            "result_type" = recent;
+        };
+        place = "<null>";
+        "possibly_sensitive" = 0;
+        "retweet_count" = 3;
+        retweeted = 0;
+        "retweeted_status" =         {
+            contributors = "<null>";
+            coordinates = "<null>";
+            "created_at" = "Thu Sep 10 23:12:44 +0000 2015";
+            entities =             {
+                hashtags =                 (
+                );
+                media =                 (
+                                        {
+                        "display_url" = "pic.twitter.com/TyJdZjsZrz";
+                        "expanded_url" = "http://twitter.com/FlatironSchool/status/642113505538240512/photo/1";
+                        id = 642113500148445184;
+                        "id_str" = 642113500148445184;
+                        indices =                         (
+                            53,
+                            75
+                        );
+                        "media_url" = "http://pbs.twimg.com/media/COk-04nUsAAWTrl.jpg";
+                        "media_url_https" = "https://pbs.twimg.com/media/COk-04nUsAAWTrl.jpg";
+                        sizes =                         {
+                            large =                             {
+                                h = 790;
+                                resize = fit;
+                                w = 1024;
+                            };
+                            medium =                             {
+                                h = 462;
+                                resize = fit;
+                                w = 600;
+                            };
+                            small =                             {
+                                h = 262;
+                                resize = fit;
+                                w = 340;
+                            };
+                            thumb =                             {
+                                h = 150;
+                                resize = crop;
+                                w = 150;
+                            };
+                        };
+                        type = photo;
+                        url = "http://t.co/TyJdZjsZrz";
+                    }
+                );
+                symbols =                 (
+                );
+                urls =                 (
+                );
+                "user_mentions" =                 (
+                                        {
+                        id = 1117449589;
+                        "id_str" = 1117449589;
+                        indices =                         (
+                            14,
+                            24
+                        );
+                        name = "Out In Tech";
+                        "screen_name" = OutInTech;
+                    },
+                                        {
+                        id = 702354494;
+                        "id_str" = 702354494;
+                        indices =                         (
+                            28,
+                            43
+                        );
+                        name = "Flatiron School";
+                        "screen_name" = FlatironSchool;
+                    }
+                );
+            };
+            "favorite_count" = 5;
+            favorited = 0;
+            geo = "<null>";
+            id = 642113505538240512;
+            "id_str" = 642113505538240512;
+            "in_reply_to_screen_name" = "<null>";
+            "in_reply_to_status_id" = "<null>";
+            "in_reply_to_status_id_str" = "<null>";
+            "in_reply_to_user_id" = "<null>";
+            "in_reply_to_user_id_str" = "<null>";
+            "is_quote_status" = 0;
+            lang = en;
+            metadata =             {
+                "iso_language_code" = en;
+                "result_type" = recent;
+            };
+            place = "<null>";
+            "possibly_sensitive" = 0;
+            "retweet_count" = 3;
+            retweeted = 0;
+            source = "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>";
+            text = "Lovely having @OutInTech at @FlatironSchool tonight! http://t.co/TyJdZjsZrz";
+            truncated = 0;
+            user =             {
+                "contributors_enabled" = 0;
+                "created_at" = "Wed Jul 18 04:30:04 +0000 2012";
+                "default_profile" = 0;
+                "default_profile_image" = 0;
+                description = "Make yourself useful.";
+                entities =                 {
+                    description =                     {
+                        urls =                         (
+                        );
+                    };
+                    url =                     {
+                        urls =                         (
+                                                        {
+                                "display_url" = "flatironschool.com";
+                                "expanded_url" = "http://www.flatironschool.com";
+                                indices =                                 (
+                                    0,
+                                    22
+                                );
+                                url = "http://t.co/3UKW3hS1Zn";
+                            }
+                        );
+                    };
+                };
+                "favourites_count" = 1663;
+                "follow_request_sent" = "<null>";
+                "followers_count" = 5096;
+                following = "<null>";
+                "friends_count" = 530;
+                "geo_enabled" = 1;
+                "has_extended_profile" = 0;
+                id = 702354494;
+                "id_str" = 702354494;
+                "is_translation_enabled" = 0;
+                "is_translator" = 0;
+                lang = en;
+                "listed_count" = 209;
+                location = NYC;
+                name = "Flatiron School";
+                notifications = "<null>";
+                "profile_background_color" = 000000;
+                "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+                "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+                "profile_background_tile" = 0;
+                "profile_banner_url" = "https://pbs.twimg.com/profile_banners/702354494/1418841304";
+                "profile_image_url" = "http://pbs.twimg.com/profile_images/544985527997304833/0DNfZq49_normal.png";
+                "profile_image_url_https" = "https://pbs.twimg.com/profile_images/544985527997304833/0DNfZq49_normal.png";
+                "profile_link_color" = 00B3E6;
+                "profile_sidebar_border_color" = 000000;
+                "profile_sidebar_fill_color" = 000000;
+                "profile_text_color" = 000000;
+                "profile_use_background_image" = 0;
+                protected = 0;
+                "screen_name" = FlatironSchool;
+                "statuses_count" = 2977;
+                "time_zone" = "<null>";
+                url = "http://t.co/3UKW3hS1Zn";
+                "utc_offset" = "<null>";
+                verified = 0;
+            };
+        };
+        source = "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>";
+        text = "RT @FlatironSchool: Lovely having @OutInTech at @FlatironSchool tonight! http://t.co/TyJdZjsZrz";
+        truncated = 0;
+        user =         {
+            "contributors_enabled" = 0;
+            "created_at" = "Sun Jan 18 06:22:20 +0000 2015";
+            "default_profile" = 1;
+            "default_profile_image" = 0;
+            description = "Hi!, I'm an artist, vigilante space traveler, newbie web developer, @FlatironSchool Alumni & aspiring BAMF coder/API engineer. Currently Interning @XOGroupInc";
+            entities =             {
+                description =                 {
+                    urls =                     (
+                    );
+                };
+            };
+            "favourites_count" = 119;
+            "follow_request_sent" = "<null>";
+            "followers_count" = 102;
+            following = "<null>";
+            "friends_count" = 169;
+            "geo_enabled" = 0;
+            "has_extended_profile" = 0;
+            id = 2983567593;
+            "id_str" = 2983567593;
+            "is_translation_enabled" = 0;
+            "is_translator" = 0;
+            lang = en;
+            "listed_count" = 15;
+            location = "";
+            name = "Mubiyna.C";
+            notifications = "<null>";
+            "profile_background_color" = C0DEED;
+            "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_tile" = 0;
+            "profile_banner_url" = "https://pbs.twimg.com/profile_banners/2983567593/1431032626";
+            "profile_image_url" = "http://pbs.twimg.com/profile_images/591810748411682816/9MkXLyZA_normal.jpg";
+            "profile_image_url_https" = "https://pbs.twimg.com/profile_images/591810748411682816/9MkXLyZA_normal.jpg";
+            "profile_link_color" = 0084B4;
+            "profile_sidebar_border_color" = C0DEED;
+            "profile_sidebar_fill_color" = DDEEF6;
+            "profile_text_color" = 333333;
+            "profile_use_background_image" = 1;
+            protected = 0;
+            "screen_name" = littleredplum;
+            "statuses_count" = 290;
+            "time_zone" = "<null>";
+            url = "<null>";
+            "utc_offset" = "<null>";
+            verified = 0;
+        };
+    },
+        {
+        contributors = "<null>";
+        coordinates = "<null>";
+        "created_at" = "Thu Sep 10 23:20:55 +0000 2015";
+        entities =         {
+            hashtags =             (
+            );
+            media =             (
+                                {
+                    "display_url" = "pic.twitter.com/h4k87SBYhd";
+                    "expanded_url" = "http://twitter.com/dianevug/status/642115410872168448/photo/1";
+                    id = 642115404027006976;
+                    "id_str" = 642115404027006976;
+                    indices =                     (
+                        61,
+                        83
+                    );
+                    "media_url" = "http://pbs.twimg.com/media/COlAjtHWEAAMzxr.jpg";
+                    "media_url_https" = "https://pbs.twimg.com/media/COlAjtHWEAAMzxr.jpg";
+                    sizes =                     {
+                        large =                         {
+                            h = 768;
+                            resize = fit;
+                            w = 1024;
+                        };
+                        medium =                         {
+                            h = 450;
+                            resize = fit;
+                            w = 600;
+                        };
+                        small =                         {
+                            h = 255;
+                            resize = fit;
+                            w = 340;
+                        };
+                        thumb =                         {
+                            h = 150;
+                            resize = crop;
+                            w = 150;
+                        };
+                    };
+                    "source_status_id" = 642115410872168448;
+                    "source_status_id_str" = 642115410872168448;
+                    "source_user_id" = 2821231203;
+                    "source_user_id_str" = 2821231203;
+                    type = photo;
+                    url = "http://t.co/h4k87SBYhd";
+                }
+            );
+            symbols =             (
+            );
+            urls =             (
+            );
+            "user_mentions" =             (
+                                {
+                    id = 2821231203;
+                    "id_str" = 2821231203;
+                    indices =                     (
+                        3,
+                        12
+                    );
+                    name = "Diane Vu";
+                    "screen_name" = dianevug;
+                },
+                                {
+                    id = 1117449589;
+                    "id_str" = 1117449589;
+                    indices =                     (
+                        30,
+                        40
+                    );
+                    name = "Out In Tech";
+                    "screen_name" = OutInTech;
+                },
+                                {
+                    id = 702354494;
+                    "id_str" = 702354494;
+                    indices =                     (
+                        44,
+                        59
+                    );
+                    name = "Flatiron School";
+                    "screen_name" = FlatironSchool;
+                }
+            );
+        };
+        "favorite_count" = 0;
+        favorited = 0;
+        geo = "<null>";
+        id = 642115565130280961;
+        "id_str" = 642115565130280961;
+        "in_reply_to_screen_name" = "<null>";
+        "in_reply_to_status_id" = "<null>";
+        "in_reply_to_status_id_str" = "<null>";
+        "in_reply_to_user_id" = "<null>";
+        "in_reply_to_user_id_str" = "<null>";
+        "is_quote_status" = 0;
+        lang = en;
+        metadata =         {
+            "iso_language_code" = en;
+            "result_type" = recent;
+        };
+        place = "<null>";
+        "possibly_sensitive" = 0;
+        "retweet_count" = 1;
+        retweeted = 0;
+        "retweeted_status" =         {
+            contributors = "<null>";
+            coordinates = "<null>";
+            "created_at" = "Thu Sep 10 23:20:18 +0000 2015";
+            entities =             {
+                hashtags =                 (
+                );
+                media =                 (
+                                        {
+                        "display_url" = "pic.twitter.com/h4k87SBYhd";
+                        "expanded_url" = "http://twitter.com/dianevug/status/642115410872168448/photo/1";
+                        id = 642115404027006976;
+                        "id_str" = 642115404027006976;
+                        indices =                         (
+                            47,
+                            69
+                        );
+                        "media_url" = "http://pbs.twimg.com/media/COlAjtHWEAAMzxr.jpg";
+                        "media_url_https" = "https://pbs.twimg.com/media/COlAjtHWEAAMzxr.jpg";
+                        sizes =                         {
+                            large =                             {
+                                h = 768;
+                                resize = fit;
+                                w = 1024;
+                            };
+                            medium =                             {
+                                h = 450;
+                                resize = fit;
+                                w = 600;
+                            };
+                            small =                             {
+                                h = 255;
+                                resize = fit;
+                                w = 340;
+                            };
+                            thumb =                             {
+                                h = 150;
+                                resize = crop;
+                                w = 150;
+                            };
+                        };
+                        type = photo;
+                        url = "http://t.co/h4k87SBYhd";
+                    }
+                );
+                symbols =                 (
+                );
+                urls =                 (
+                );
+                "user_mentions" =                 (
+                                        {
+                        id = 1117449589;
+                        "id_str" = 1117449589;
+                        indices =                         (
+                            16,
+                            26
+                        );
+                        name = "Out In Tech";
+                        "screen_name" = OutInTech;
+                    },
+                                        {
+                        id = 702354494;
+                        "id_str" = 702354494;
+                        indices =                         (
+                            30,
+                            45
+                        );
+                        name = "Flatiron School";
+                        "screen_name" = FlatironSchool;
+                    }
+                );
+            };
+            "favorite_count" = 1;
+            favorited = 0;
+            geo = "<null>";
+            id = 642115410872168448;
+            "id_str" = 642115410872168448;
+            "in_reply_to_screen_name" = "<null>";
+            "in_reply_to_status_id" = "<null>";
+            "in_reply_to_status_id_str" = "<null>";
+            "in_reply_to_user_id" = "<null>";
+            "in_reply_to_user_id_str" = "<null>";
+            "is_quote_status" = 0;
+            lang = en;
+            metadata =             {
+                "iso_language_code" = en;
+                "result_type" = recent;
+            };
+            place = "<null>";
+            "possibly_sensitive" = 0;
+            "retweet_count" = 1;
+            retweeted = 0;
+            source = "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>";
+            text = "Full house with @OutInTech at @FlatironSchool! http://t.co/h4k87SBYhd";
+            truncated = 0;
+            user =             {
+                "contributors_enabled" = 0;
+                "created_at" = "Fri Oct 10 14:18:05 +0000 2014";
+                "default_profile" = 1;
+                "default_profile_image" = 0;
+                description = "Community engagement @FlatironSchool. @UCLA, @Columbia. I like sea otters.";
+                entities =                 {
+                    description =                     {
+                        urls =                         (
+                        );
+                    };
+                    url =                     {
+                        urls =                         (
+                                                        {
+                                "display_url" = "linkedin.com/in/vudiane";
+                                "expanded_url" = "https://www.linkedin.com/in/vudiane";
+                                indices =                                 (
+                                    0,
+                                    23
+                                );
+                                url = "https://t.co/giD3gp4PhY";
+                            }
+                        );
+                    };
+                };
+                "favourites_count" = 230;
+                "follow_request_sent" = "<null>";
+                "followers_count" = 182;
+                following = "<null>";
+                "friends_count" = 474;
+                "geo_enabled" = 0;
+                "has_extended_profile" = 0;
+                id = 2821231203;
+                "id_str" = 2821231203;
+                "is_translation_enabled" = 0;
+                "is_translator" = 0;
+                lang = en;
+                "listed_count" = 13;
+                location = "New York, NY";
+                name = "Diane Vu";
+                notifications = "<null>";
+                "profile_background_color" = C0DEED;
+                "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+                "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+                "profile_background_tile" = 0;
+                "profile_banner_url" = "https://pbs.twimg.com/profile_banners/2821231203/1429062391";
+                "profile_image_url" = "http://pbs.twimg.com/profile_images/573535567222345728/r9BEbZuC_normal.jpeg";
+                "profile_image_url_https" = "https://pbs.twimg.com/profile_images/573535567222345728/r9BEbZuC_normal.jpeg";
+                "profile_link_color" = 0084B4;
+                "profile_sidebar_border_color" = C0DEED;
+                "profile_sidebar_fill_color" = DDEEF6;
+                "profile_text_color" = 333333;
+                "profile_use_background_image" = 1;
+                protected = 0;
+                "screen_name" = dianevug;
+                "statuses_count" = 342;
+                "time_zone" = "<null>";
+                url = "https://t.co/giD3gp4PhY";
+                "utc_offset" = "<null>";
+                verified = 0;
+            };
+        };
+        source = "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>";
+        text = "RT @dianevug: Full house with @OutInTech at @FlatironSchool! http://t.co/h4k87SBYhd";
+        truncated = 0;
+        user =         {
+            "contributors_enabled" = 0;
+            "created_at" = "Sat Mar 24 05:53:13 +0000 2007";
+            "default_profile" = 1;
+            "default_profile_image" = 0;
+            description = "Working with an incredible team @flatironschool.";
+            entities =             {
+                description =                 {
+                    urls =                     (
+                    );
+                };
+                url =                 {
+                    urls =                     (
+                                                {
+                            "display_url" = "aviflombaum.com";
+                            "expanded_url" = "http://www.aviflombaum.com";
+                            indices =                             (
+                                0,
+                                22
+                            );
+                            url = "http://t.co/idE2bHv83y";
+                        }
+                    );
+                };
+            };
+            "favourites_count" = 1082;
+            "follow_request_sent" = "<null>";
+            "followers_count" = 3197;
+            following = "<null>";
+            "friends_count" = 744;
+            "geo_enabled" = 1;
+            "has_extended_profile" = 0;
+            id = 2085091;
+            "id_str" = 2085091;
+            "is_translation_enabled" = 0;
+            "is_translator" = 0;
+            lang = en;
+            "listed_count" = 161;
+            location = "iPhone: 18.320541,-64.844452";
+            name = "Avi Flombaum";
+            notifications = "<null>";
+            "profile_background_color" = C0DEED;
+            "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_tile" = 0;
+            "profile_banner_url" = "https://pbs.twimg.com/profile_banners/2085091/1429109401";
+            "profile_image_url" = "http://pbs.twimg.com/profile_images/464511280833785856/oVjSmCu9_normal.jpeg";
+            "profile_image_url_https" = "https://pbs.twimg.com/profile_images/464511280833785856/oVjSmCu9_normal.jpeg";
+            "profile_link_color" = 0084B4;
+            "profile_sidebar_border_color" = C0DEED;
+            "profile_sidebar_fill_color" = DDEEF6;
+            "profile_text_color" = 333333;
+            "profile_use_background_image" = 1;
+            protected = 0;
+            "screen_name" = aviflombaum;
+            "statuses_count" = 11416;
+            "time_zone" = "Eastern Time (US & Canada)";
+            url = "http://t.co/idE2bHv83y";
+            "utc_offset" = "-14400";
+            verified = 0;
+        };
+    },
+        {
+        contributors = "<null>";
+        coordinates = "<null>";
+        "created_at" = "Thu Sep 10 23:20:18 +0000 2015";
+        entities =         {
+            hashtags =             (
+            );
+            media =             (
+                                {
+                    "display_url" = "pic.twitter.com/h4k87SBYhd";
+                    "expanded_url" = "http://twitter.com/dianevug/status/642115410872168448/photo/1";
+                    id = 642115404027006976;
+                    "id_str" = 642115404027006976;
+                    indices =                     (
+                        47,
+                        69
+                    );
+                    "media_url" = "http://pbs.twimg.com/media/COlAjtHWEAAMzxr.jpg";
+                    "media_url_https" = "https://pbs.twimg.com/media/COlAjtHWEAAMzxr.jpg";
+                    sizes =                     {
+                        large =                         {
+                            h = 768;
+                            resize = fit;
+                            w = 1024;
+                        };
+                        medium =                         {
+                            h = 450;
+                            resize = fit;
+                            w = 600;
+                        };
+                        small =                         {
+                            h = 255;
+                            resize = fit;
+                            w = 340;
+                        };
+                        thumb =                         {
+                            h = 150;
+                            resize = crop;
+                            w = 150;
+                        };
+                    };
+                    type = photo;
+                    url = "http://t.co/h4k87SBYhd";
+                }
+            );
+            symbols =             (
+            );
+            urls =             (
+            );
+            "user_mentions" =             (
+                                {
+                    id = 1117449589;
+                    "id_str" = 1117449589;
+                    indices =                     (
+                        16,
+                        26
+                    );
+                    name = "Out In Tech";
+                    "screen_name" = OutInTech;
+                },
+                                {
+                    id = 702354494;
+                    "id_str" = 702354494;
+                    indices =                     (
+                        30,
+                        45
+                    );
+                    name = "Flatiron School";
+                    "screen_name" = FlatironSchool;
+                }
+            );
+        };
+        "favorite_count" = 1;
+        favorited = 0;
+        geo = "<null>";
+        id = 642115410872168448;
+        "id_str" = 642115410872168448;
+        "in_reply_to_screen_name" = "<null>";
+        "in_reply_to_status_id" = "<null>";
+        "in_reply_to_status_id_str" = "<null>";
+        "in_reply_to_user_id" = "<null>";
+        "in_reply_to_user_id_str" = "<null>";
+        "is_quote_status" = 0;
+        lang = en;
+        metadata =         {
+            "iso_language_code" = en;
+            "result_type" = recent;
+        };
+        place = "<null>";
+        "possibly_sensitive" = 0;
+        "retweet_count" = 1;
+        retweeted = 0;
+        source = "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>";
+        text = "Full house with @OutInTech at @FlatironSchool! http://t.co/h4k87SBYhd";
+        truncated = 0;
+        user =         {
+            "contributors_enabled" = 0;
+            "created_at" = "Fri Oct 10 14:18:05 +0000 2014";
+            "default_profile" = 1;
+            "default_profile_image" = 0;
+            description = "Community engagement @FlatironSchool. @UCLA, @Columbia. I like sea otters.";
+            entities =             {
+                description =                 {
+                    urls =                     (
+                    );
+                };
+                url =                 {
+                    urls =                     (
+                                                {
+                            "display_url" = "linkedin.com/in/vudiane";
+                            "expanded_url" = "https://www.linkedin.com/in/vudiane";
+                            indices =                             (
+                                0,
+                                23
+                            );
+                            url = "https://t.co/giD3gp4PhY";
+                        }
+                    );
+                };
+            };
+            "favourites_count" = 230;
+            "follow_request_sent" = "<null>";
+            "followers_count" = 182;
+            following = "<null>";
+            "friends_count" = 474;
+            "geo_enabled" = 0;
+            "has_extended_profile" = 0;
+            id = 2821231203;
+            "id_str" = 2821231203;
+            "is_translation_enabled" = 0;
+            "is_translator" = 0;
+            lang = en;
+            "listed_count" = 13;
+            location = "New York, NY";
+            name = "Diane Vu";
+            notifications = "<null>";
+            "profile_background_color" = C0DEED;
+            "profile_background_image_url" = "http://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_image_url_https" = "https://abs.twimg.com/images/themes/theme1/bg.png";
+            "profile_background_tile" = 0;
+            "profile_banner_url" = "https://pbs.twimg.com/profile_banners/2821231203/1429062391";
+            "profile_image_url" = "http://pbs.twimg.com/profile_images/573535567222345728/r9BEbZuC_normal.jpeg";
+            "profile_image_url_https" = "https://pbs.twimg.com/profile_images/573535567222345728/r9BEbZuC_normal.jpeg";
+            "profile_link_color" = 0084B4;
+            "profile_sidebar_border_color" = C0DEED;
+            "profile_sidebar_fill_color" = DDEEF6;
+            "profile_text_color" = 333333;
+            "profile_use_background_image" = 1;
+            protected = 0;
+            "screen_name" = dianevug;
+            "statuses_count" = 342;
+            "time_zone" = "<null>";
+            url = "https://t.co/giD3gp4PhY";
+            "utc_offset" = "<null>";
+            verified = 0;
+        };
+    }
+)
