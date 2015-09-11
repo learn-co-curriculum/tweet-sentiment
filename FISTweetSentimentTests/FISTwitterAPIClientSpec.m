@@ -7,14 +7,21 @@
 //
 
 #import "Specta.h"
+#import "AppDelegate.h"
 #import "FISTwitterAPIClient.h"
 #import "FISSentiment140API.h"
 #import "FISConstants.h"
+#import "OHHTTPStubs.h"
+#define EXP_SHORTHAND
+#import "Expecta.h"
 
 
 SpecBegin(FISTwitterAPIClient)
 
 describe(@"FISTwitterAPIClient", ^{
+    
+    __block id<OHHTTPStubsDescriptor> httpStub;
+
     
     beforeAll(^{
         
