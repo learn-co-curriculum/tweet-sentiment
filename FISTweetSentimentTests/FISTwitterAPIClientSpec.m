@@ -35,8 +35,15 @@ describe(@"FISTwitterAPIClient", ^{
             
             [OHHTTPStubs removeAllStubs];
             httpStub = [OHHTTPStubs stubRequestsPassingTest:^BOOL(NSURLRequest *request) {
+                NSString *requestString = @"https://api.twitter.com/1.1/search/tweets.json?include_entities=1&q=FlatironSchool";
+                NSString *urlHost = [request.URL absoluteString];
                 
-                return [request.URL.host isEqualToString:@"api.twitter.com"];
+                return [requestString isEqualToString:urlHost];
+            
+                
+                
+                
+//                return [request.URL.host isEqualToString:@"api.twitter.com"];
                 
 //                return ([request.URL.host isEqualToString:@"api.twitter.com"] ||
 //                        [request.URL.host isEqualToString:@"www.sentiment140.com"]);
@@ -49,7 +56,7 @@ describe(@"FISTwitterAPIClient", ^{
                                                
                                         
                                                
-                                               
+    
                                            }];
         });
         
