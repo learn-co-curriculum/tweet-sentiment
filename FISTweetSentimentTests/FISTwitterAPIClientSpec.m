@@ -20,7 +20,7 @@ SpecBegin(FISTwitterAPIClient)
 static NSString *const kTwitterRequestURL = @"api.twitter.com";
 static NSString *const kTwitterOauthURL = @"https://api.twitter.com/oauth2/token";
 static NSString *const kSentimentRequestURL = @"sentiment140";
-static NSString *const kPolarityOfEveryTweet = @"15";
+static NSString *const kPolarityOfEveryTweet = @"20";
 
 describe(@"FISTwitterAPIClient", ^{
     
@@ -46,7 +46,7 @@ describe(@"FISTwitterAPIClient", ^{
         sentimentStubData = [jsonString dataUsingEncoding:NSUTF8StringEncoding];
     });
     
-    describe(@"requestLocationsWithSuccess:failure:", ^{
+    describe(@"getAveragePolarityOfTweetsFromQuery:withCompletion::", ^{
         
         beforeEach(^{
             [OHHTTPStubs removeAllStubs];
@@ -89,8 +89,7 @@ describe(@"FISTwitterAPIClient", ^{
                                                               
                                                               expect(polarity).to.beAKindOf([NSNumber class]);
                                                               expect(polarity).notTo.equal(nil);
-                                                              expect(polarity).to.equal(10);
-                                                              expect(polarity).notTo.equal(0);
+                                                              expect(polarity).to.equal(20);
                                                               
                                                               done();
                                                           }];
