@@ -23,10 +23,13 @@ describe(@"FISTwitterAPIClient", ^{
     __block id<OHHTTPStubsDescriptor> httpStub;
     __block NSString *filePath;
     __block NSArray *tweets;
+    __block NSDictionary *responseObject;
     
     beforeAll(^{
         filePath = [[NSBundle mainBundle] pathForResource:@"fakeJSON" ofType:@"json"];
         tweets = [NSArray arrayWithContentsOfFile:filePath];
+        responseObject = @{@"search_metadata": @{@"Data": @"<3"},
+                           @"statuses": tweets};
     });
     
     describe(@"requestLocationsWithSuccess:failure:", ^{
@@ -35,34 +38,21 @@ describe(@"FISTwitterAPIClient", ^{
             
             [OHHTTPStubs removeAllStubs];
             httpStub = [OHHTTPStubs stubRequestsPassingTest:^BOOL(NSURLRequest *request) {
-                NSString *requestString = @"https://api.twitter.com/1.1/search/tweets.json?include_entities=1&q=FlatironSchool";
+                NSString *requestString = @"https://api.twitter.com";
                 NSString *urlHost = [request.URL absoluteString];
-                
-                BOOL isThingEqual = [requestString isEqualToString:urlHost];
-                NSLog(@"\n\n Request: %@ and are you equal? : %@\n\n", request, @(isThingEqual));
-                
                 return [requestString isEqualToString:urlHost];
             }
                                            withStubResponse:^OHHTTPStubsResponse*(NSURLRequest *request) {
                                                
+                                               NSLog(@"\n\nWHATS UP DUDE!!!!!!!!!!!!!!");
                                                
-                                               NSDictionary *response = @{@"search_metadata": @{@"Data": @"<3"},
-                                                                          @"statuses": tweets};
-                                               
-                                               
-                                               
-                                               
-//                                               NSDictionary *searchMetadata = [response valueForKey:@"search_metadata"];
-//                                               NSArray *statuses = [response valueForKey:@"statuses"];
-                                               
-                                               return [OHHTTPStubsResponse responseWithJSONObject:response
+                                               return [OHHTTPStubsResponse responseWithJSONObject:responseObject
                                                                                        statusCode:200
                                                                                           headers:@{@"Content-type": @"application/json"}];
-                                               
-                                        
-                                               
-    
                                            }];
+            
+            
+            
         });
         
         it(@"should get the average polarity of tweets from the provided query.", ^{
@@ -70,11 +60,17 @@ describe(@"FISTwitterAPIClient", ^{
             waitUntil(^(DoneCallback done) {
                 
                 [FISTwitterAPIClient getAveragePolarityOfTweetsFromQuery:@"FlatironSchool"
-                                                          withCompletion:^(NSNumber *polarity) {
-                                                              
-                                                              
-                                                              NSLog(@"\n\n\nPolarity is %@\n\n\n", polarity);
+                                                          withCompletion:^(NSNumber *polarity)
+                 
+                                                              expect(polarity).to.beAKindOf([NSNumber class]);
+                                                              expect(polarity).notTo.equal(nil);
+                                                              expect(polarity).to.equal(2);
+                                                              expect(polarity).notTo.equal(0);
+                 
+                                                              done();
                                                           }];
+                
+                
                 
                 
             });
