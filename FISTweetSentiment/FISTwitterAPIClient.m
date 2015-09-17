@@ -28,6 +28,7 @@
                              successBlock:^(NSDictionary *searchMetadata, NSArray *statuses) {
                                  
                                  NSLog(@" META DATA: %@", searchMetadata);
+                                 NSLog(@"Count of statuses: %ld", statuses.count);
                                                                   
                                  [FISSentiment140API getPolarityOfTweets:statuses
                                                                fromQuery:query

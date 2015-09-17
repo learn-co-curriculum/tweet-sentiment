@@ -140,7 +140,10 @@
               
               strongSelf.bearerToken = [json valueForKey:@"access_token"];
               
+              
               successBlock(strongSelf.bearerToken, nil);
+              
+              
               
           } errorBlock:^(id request, NSDictionary *requestHeaders, NSDictionary *responseHeaders, NSError *error) {
               errorBlock(error);

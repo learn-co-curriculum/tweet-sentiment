@@ -21,12 +21,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [FISTwitterAPIClient getAveragePolarityOfTweetsFromQuery:@"FlatironSchool"
-                                              withCompletion:^(NSNumber *polarity) {
-                                                  [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-                                                      self.polarityLabel.text = [polarity stringValue];
-                                                  }];
-                                              }];
+//    [FISTwitterAPIClient getAveragePolarityOfTweetsFromQuery:@"FlatironSchool"
+//                                              withCompletion:^(NSNumber *polarity) {
+//                                                  [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+//                                                      self.polarityLabel.text = [polarity stringValue];
+//                                                  }];
+//                                              }];
 }
 
 @end
