@@ -37,11 +37,15 @@ describe(@"FISTwitterAPIClient", ^{
     beforeAll(^{
         filePath = [[NSBundle mainBundle] pathForResource:@"fakeJSON" ofType:@"json"];
         tweets = [NSArray arrayWithContentsOfFile:filePath];
+        
         responseObject = @{@"search_metadata": @{@"Data": @"<3"},
                            @"statuses": tweets};
+        
         loginResponse = @{@"access_token": @"DONALD TRUMP",
                           @"token_type": @"bearer"};
+        
         NSString *jsonString = [NSString stringWithFormat:@"{\"results\": {\"polarity\": \"%@\"}}", kPolarityOfEveryTweet];
+        
         sentimentStubData = [jsonString dataUsingEncoding:NSUTF8StringEncoding];
     });
     
