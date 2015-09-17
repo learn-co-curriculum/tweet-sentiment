@@ -24,6 +24,8 @@
         
         [twitter getSearchTweetsWithQuery:query
                              successBlock:^(NSDictionary *searchMetadata, NSArray *statuses) {
+                                 
+                                 NSLog(@"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ META DATA: %@", searchMetadata);
                                                                   
                                  [FISSentiment140API getPolarityOfTweets:statuses
                                                                fromQuery:query
