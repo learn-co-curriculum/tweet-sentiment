@@ -24,11 +24,6 @@
         
         [twitter getSearchTweetsWithQuery:query
                              successBlock:^(NSDictionary *searchMetadata, NSArray *statuses) {
-                                 
-                                 
-                                 
-                                 
-                                 NSLog(@"\n\nAre we getting here: %@\n\n", statuses);
                                  NSLog(@"\n\nWhat is searchMetaData: %@\n\n", searchMetadata);
                                  
                                  

@@ -38,19 +38,24 @@ describe(@"FISTwitterAPIClient", ^{
                 NSString *requestString = @"https://api.twitter.com/1.1/search/tweets.json?include_entities=1&q=FlatironSchool";
                 NSString *urlHost = [request.URL absoluteString];
                 
+                BOOL isThingEqual = [requestString isEqualToString:urlHost];
+                NSLog(@"\n\n Request: %@ and are you equal? : %@\n\n", request, @(isThingEqual));
+                
                 return [requestString isEqualToString:urlHost];
-            
-                
-                
-                
-//                return [request.URL.host isEqualToString:@"api.twitter.com"];
-                
-//                return ([request.URL.host isEqualToString:@"api.twitter.com"] ||
-//                        [request.URL.host isEqualToString:@"www.sentiment140.com"]);
             }
                                            withStubResponse:^OHHTTPStubsResponse*(NSURLRequest *request) {
                                                
-                                               return [OHHTTPStubsResponse responseWithJSONObject:tweets
+                                               
+                                               NSDictionary *response = @{@"search_metadata": @{@"Data": @"<3"},
+                                                                          @"statuses": tweets};
+                                               
+                                               
+                                               
+                                               
+//                                               NSDictionary *searchMetadata = [response valueForKey:@"search_metadata"];
+//                                               NSArray *statuses = [response valueForKey:@"statuses"];
+                                               
+                                               return [OHHTTPStubsResponse responseWithJSONObject:response
                                                                                        statusCode:200
                                                                                           headers:@{@"Content-type": @"application/json"}];
                                                
