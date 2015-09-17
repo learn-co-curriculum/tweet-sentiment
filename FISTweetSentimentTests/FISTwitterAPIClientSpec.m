@@ -21,6 +21,7 @@ static NSString *const kTwitterRequestURL = @"api.twitter.com";
 static NSString *const kTwitterOauthURL = @"https://api.twitter.com/oauth2/token";
 static NSString *const kSentimentRequestURL = @"sentiment140";
 static NSString *const kPolarityOfEveryTweet = @"20";
+static NSString *const kTwitterQuery = @"FlatironSchool";
 
 describe(@"FISTwitterAPIClient", ^{
     
@@ -28,7 +29,6 @@ describe(@"FISTwitterAPIClient", ^{
     __block id<OHHTTPStubsDescriptor> httpTwitterLoginStub;
     __block id<OHHTTPStubsDescriptor> httpSentimentStub;
     __block NSString *filePath;
-    __block NSString *query;
     __block NSArray *tweets;
     __block NSDictionary *responseObject;
     __block NSDictionary *loginResponse;
@@ -39,7 +39,6 @@ describe(@"FISTwitterAPIClient", ^{
         tweets = [NSArray arrayWithContentsOfFile:filePath];
         responseObject = @{@"search_metadata": @{@"Data": @"<3"},
                            @"statuses": tweets};
-        query = @"FlatironSchool";
         loginResponse = @{@"access_token": @"DONALD TRUMP",
                           @"token_type": @"bearer"};
         NSString *jsonString = [NSString stringWithFormat:@"{\"results\": {\"polarity\": \"%@\"}}", kPolarityOfEveryTweet];
@@ -84,7 +83,7 @@ describe(@"FISTwitterAPIClient", ^{
             
             waitUntil(^(DoneCallback done) {
                 
-                [FISTwitterAPIClient getAveragePolarityOfTweetsFromQuery:@"FlatironSchool"
+                [FISTwitterAPIClient getAveragePolarityOfTweetsFromQuery:kTwitterQuery
                                                           withCompletion:^(NSNumber *polarity) {
                                                               
                                                               expect(polarity).to.beAKindOf([NSNumber class]);
@@ -113,22 +112,6 @@ describe(@"FISTwitterAPIClient", ^{
         //                                         }];
         //            });
         //        });
-    });
-    
-    beforeEach(^{
-        
-    });
-    
-    it(@"", ^{
-        
-    });
-    
-    afterEach(^{
-        
-    });
-    
-    afterAll(^{
-        
     });
 });
 
