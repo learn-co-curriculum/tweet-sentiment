@@ -24,7 +24,7 @@
         NSURL *sentiment140URL = [FISSentiment140API urlFromTweet:tweet andQuery:query];
         
         NSURLSessionDataTask *task = [mySession dataTaskWithURL:sentiment140URL completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
-            
+                        
             if (error) {
                 NSLog(@"%@", error.localizedDescription);
                 completionBlock(nil);
@@ -32,6 +32,9 @@
             
             NSDictionary *resultsDictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
             NSString *polarity = resultsDictionary[@"results"][@"polarity"];
+            
+            NSLog(@"=========Polarity = %@\n\n", polarity);
+            
             totalPolarityValue += [polarity integerValue];
             
             if (numberOfTweetsCheckedForPolarity == [tweets count]-1) {

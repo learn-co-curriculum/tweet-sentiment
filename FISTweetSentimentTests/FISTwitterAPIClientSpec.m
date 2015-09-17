@@ -18,6 +18,7 @@
 SpecBegin(FISTwitterAPIClient)
 
 static NSString *const kTwitterRequestURL = @"api.twitter.com";
+static NSString *const kTwitterOauthURL = @"https://api.twitter.com/oauth2/token";
 static NSString *const kSentimentRequestURL = @"sentiment140";
 
 describe(@"FISTwitterAPIClient", ^{
@@ -42,71 +43,69 @@ describe(@"FISTwitterAPIClient", ^{
         beforeEach(^{
             
             [OHHTTPStubs removeAllStubs];
+            
+            
+            
             httpTwitterStub = [OHHTTPStubs stubRequestsPassingTest:^BOOL(NSURLRequest *request) {
+                BOOL isTwitterOauth = [[request.URL absoluteString] isEqualToString:kTwitterOauthURL];
+                (isTwitterOauth) ? NSLog(@"YES - It's Twitter Oauth\n\n\n") : NSLog(@"NO - It's Not.\n\n\n");
+                
+                return YES;
+                
+//                return isTwitterOauth;
+                
                 NSString *requestURLString = [request.URL absoluteString];
                 BOOL containsTwitterString = [requestURLString containsString:kTwitterRequestURL];
-                NSLog(@"\n\nREQuest from twitterstub: %@", request);
-                (containsTwitterString) ?  : NSLog(@"\n\n********============NO============\n\n");
-                
-                
-                
-//                NSLog(@"\n\n\nRequest from the TWITTER STUB : %@\n\n\n", request);
-                return [[request.URL absoluteString] isEqualToString:kTwitterRequestURL];
+//                return containsTwitterString;
             }
                                                   withStubResponse:^OHHTTPStubsResponse*(NSURLRequest *request) {
-                                                      return [OHHTTPStubsResponse responseWithJSONObject:responseObject
+                                                      
+                                                      NSLog(@"STUB TIME!!!!!!!!!!!!!!");
+//                                                      "access_token" = "AAAAAAAAAAAAAAAAAAAAAKhwYwAAAAAAmlOWAsDKZoDGunCOxo4lAMGDzGw%3DxJl8QbmYUi7vtTilTRcME4XljrZFik9VSXa9smdo90ibGLzr5Y";
+//                                                      "token_type" = bearer;
+                                                      
+                                                      
+                                                      
+                                                      NSDictionary *test = @{@"access_token": @"DONALD TRUMP",
+                                                                             @"token_type": @"bearer"};
+                                                      
+//                                                      NSString *tokenType = [json valueForKey:@"token_type"];
+                                                      return [OHHTTPStubsResponse responseWithJSONObject:test
                                                                                               statusCode:200
                                                                                                  headers:@{@"Content-type": @"application/json"}];
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+//                                                      return [OHHTTPStubsResponse responseWithJSONObject:responseObject
+//                                                                                              statusCode:200
+//                                                                                                 headers:@{@"Content-type": @"application/json"}];
                                                   }];
-            
-            [OHHTTPStubs setEnabled:YES];
-            
-        
-            
-            httpSentimentStub = [OHHTTPStubs stubRequestsPassingTest:^BOOL(NSURLRequest *request) {
-//                NSLog(@"\n\n\nRequest from the SENTIMENET STUB : %@\n\n\n", request);
-                NSString *requestURLString = [request.URL absoluteString];
-                BOOL containsSentimentString = [requestURLString containsString:kSentimentRequestURL];
-                NSLog(@"\n\nREQuest from sentiment: %@", request);
 
-                (containsSentimentString) ?  : NSLog(@"\n\n********============NO============\n\n");
-                return containsSentimentString;
-//                BOOL isSentiment = [[request.URL absoluteString] isEqualToString:kSentimentRequestURL];
-//                (isSentiment) ? NSLog(@"\n\n===YES===\n\n") : NSLog(@"\n\n===NO===\n\n");
-//                return [[request.URL absoluteString] isEqualToString:kSentimentRequestURL];
-            }
-                                                    withStubResponse:^OHHTTPStubsResponse*(NSURLRequest *request) {
-                                                        NSString *jsonString = @"{\"results\": {\"polarity\": \"10\"}}";
-                                                        NSData *stubData = [jsonString dataUsingEncoding:NSUTF8StringEncoding];
-                                                        return [OHHTTPStubsResponse responseWithData:stubData
-                                                                                          statusCode:200
-                                                                                             headers:nil];
-                                                        
-                            
-                                                        //                                                        NSDictionary *test = @{@"results": @{@"polarity": @"5"}};
-                                                        //                                                        NSData *responseData = [NSKeyedArchiver archivedDataWithRootObject:test];
-                                                        
-                                                        
-                                                        
-                                                        //                                                        return [OHHTTPStubsResponse responseWithData:responseData
-                                                        //                                                                                          statusCode:200
-                                                        //                                                                                             headers:nil];
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        
-                                                        //                                                        NSDictionary *resultsDictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-                                                        //                                                        NSString *polarity = resultsDictionary[@"results"][@"polarity"];
-                                                        
-                                                        
-                                                        
-                                                        
-                            
-                                                        
-                                                    }];
             
-        });
+//            httpSentimentStub = [OHHTTPStubs stubRequestsPassingTest:^BOOL(NSURLRequest *request) {
+//                NSString *requestURLString = [request.URL absoluteString];
+//                BOOL containsSentimentString = [requestURLString containsString:kSentimentRequestURL];
+//                return containsSentimentString;
+//            }
+//                                                    withStubResponse:^OHHTTPStubsResponse*(NSURLRequest *request) {
+//                                                        NSString *jsonString = @"{\"results\": {\"polarity\": \"15\"}}";
+//                                                        NSData *stubData = [jsonString dataUsingEncoding:NSUTF8StringEncoding];
+//                                                        return [OHHTTPStubsResponse responseWithData:stubData
+//                                                                                          statusCode:200
+//                                                                                             headers:nil];
+//                                                    }];
+            
+                    });
         
         it(@"should get the average polarity of tweets from the provided query.", ^{
             
@@ -125,23 +124,23 @@ describe(@"FISTwitterAPIClient", ^{
             });
         });
         
-        it(@"Should get the polarity of the tweets using the sentiment140 API", ^{
-            
-            waitUntil(^(DoneCallback done) {
-                
-                [FISSentiment140API getPolarityOfTweets:tweets
-                                              fromQuery:query
-                                         withCompletion:^(NSNumber *polarity) {
-                                             
-                                             expect(polarity).to.beAKindOf([NSNumber class]);
-                                             expect(polarity).notTo.equal(nil);
-                                             expect(polarity).to.equal(10);
-                                             expect(polarity).notTo.equal(0);
-                                             
-                                             done();
-                                         }];
-            });
-        });
+        //        it(@"Should get the polarity of the tweets using the sentiment140 API", ^{
+        //
+        //            waitUntil(^(DoneCallback done) {
+        //
+        //                [FISSentiment140API getPolarityOfTweets:tweets
+        //                                              fromQuery:query
+        //                                         withCompletion:^(NSNumber *polarity) {
+        //
+        //                                             expect(polarity).to.beAKindOf([NSNumber class]);
+        //                                             expect(polarity).notTo.equal(nil);
+        //                                             expect(polarity).to.equal(10);
+        //                                             expect(polarity).notTo.equal(0);
+        //
+        //                                             done();
+        //                                         }];
+        //            });
+        //        });
     });
     
     beforeEach(^{

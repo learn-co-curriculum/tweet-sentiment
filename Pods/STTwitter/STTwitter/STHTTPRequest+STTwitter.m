@@ -48,6 +48,7 @@
         
         if(json == nil) {
             successBlock(sr.requestHeaders, sr.responseHeaders, sr.responseString); // response is not necessarily json
+            
             return;
         }
         

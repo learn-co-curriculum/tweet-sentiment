@@ -20,12 +20,14 @@
     
     [twitter verifyCredentialsWithUserSuccessBlock:^(NSString *username, NSString *userID) {
         
+        NSLog(@"Username: %@ userID: %@", username, userID);
+        
         
         
         [twitter getSearchTweetsWithQuery:query
                              successBlock:^(NSDictionary *searchMetadata, NSArray *statuses) {
                                  
-                                 NSLog(@"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ META DATA: %@", searchMetadata);
+                                 NSLog(@" META DATA: %@", searchMetadata);
                                                                   
                                  [FISSentiment140API getPolarityOfTweets:statuses
                                                                fromQuery:query
