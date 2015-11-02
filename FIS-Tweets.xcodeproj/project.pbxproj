@@ -13,7 +13,19 @@
 		5BC307781BE7C3850069EF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC307761BE7C3850069EF81 /* Main.storyboard */; };
 		5BC3077A1BE7C3850069EF81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC307791BE7C3850069EF81 /* Assets.xcassets */; };
 		5BC3077D1BE7C3850069EF81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC3077B1BE7C3850069EF81 /* LaunchScreen.storyboard */; };
+		5BC307961BE7ECF00069EF81 /* fakeJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BC307941BE7ECF00069EF81 /* fakeJSON.json */; settings = {ASSET_TAGS = (); }; };
+		5BC307971BE7ECF00069EF81 /* FISTwitterAPIClientSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC307951BE7ECF00069EF81 /* FISTwitterAPIClientSpec.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BC3078F1BE7ECA90069EF81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BC307621BE7C3850069EF81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC307691BE7C3850069EF81;
+			remoteInfo = "FIS-Tweets";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5BC3076A1BE7C3850069EF81 /* FIS-Tweets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FIS-Tweets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +38,21 @@
 		5BC307791BE7C3850069EF81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BC3077C1BE7C3850069EF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BC3077E1BE7C3850069EF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC3078A1BE7ECA90069EF81 /* FIS-TweetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FIS-TweetsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC3078E1BE7ECA90069EF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC307941BE7ECF00069EF81 /* fakeJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fakeJSON.json; sourceTree = "<group>"; };
+		5BC307951BE7ECF00069EF81 /* FISTwitterAPIClientSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTwitterAPIClientSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5BC307671BE7C3850069EF81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC307871BE7ECA90069EF81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				5BC3076C1BE7C3850069EF81 /* FIS-Tweets */,
+				5BC3078B1BE7ECA90069EF81 /* FIS-TweetsTests */,
 				5BC3076B1BE7C3850069EF81 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				5BC3076A1BE7C3850069EF81 /* FIS-Tweets.app */,
+				5BC3078A1BE7ECA90069EF81 /* FIS-TweetsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +104,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5BC3078B1BE7ECA90069EF81 /* FIS-TweetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BC307941BE7ECF00069EF81 /* fakeJSON.json */,
+				5BC307951BE7ECF00069EF81 /* FISTwitterAPIClientSpec.m */,
+				5BC3078E1BE7ECA90069EF81 /* Info.plist */,
+			);
+			path = "FIS-TweetsTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +134,24 @@
 			productReference = 5BC3076A1BE7C3850069EF81 /* FIS-Tweets.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5BC307891BE7ECA90069EF81 /* FIS-TweetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC307931BE7ECA90069EF81 /* Build configuration list for PBXNativeTarget "FIS-TweetsTests" */;
+			buildPhases = (
+				5BC307861BE7ECA90069EF81 /* Sources */,
+				5BC307871BE7ECA90069EF81 /* Frameworks */,
+				5BC307881BE7ECA90069EF81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BC307901BE7ECA90069EF81 /* PBXTargetDependency */,
+			);
+			name = "FIS-TweetsTests";
+			productName = "FIS-TweetsTests";
+			productReference = 5BC3078A1BE7ECA90069EF81 /* FIS-TweetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -110,6 +163,10 @@
 				TargetAttributes = {
 					5BC307691BE7C3850069EF81 = {
 						CreatedOnToolsVersion = 7.0.1;
+					};
+					5BC307891BE7ECA90069EF81 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 5BC307691BE7C3850069EF81;
 					};
 				};
 			};
@@ -127,6 +184,7 @@
 			projectRoot = "";
 			targets = (
 				5BC307691BE7C3850069EF81 /* FIS-Tweets */,
+				5BC307891BE7ECA90069EF81 /* FIS-TweetsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +197,14 @@
 				5BC3077D1BE7C3850069EF81 /* LaunchScreen.storyboard in Resources */,
 				5BC3077A1BE7C3850069EF81 /* Assets.xcassets in Resources */,
 				5BC307781BE7C3850069EF81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC307881BE7ECA90069EF81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC307961BE7ECF00069EF81 /* fakeJSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +221,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BC307861BE7ECA90069EF81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC307971BE7ECF00069EF81 /* FISTwitterAPIClientSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BC307901BE7ECA90069EF81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BC307691BE7C3850069EF81 /* FIS-Tweets */;
+			targetProxy = 5BC3078F1BE7ECA90069EF81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5BC307761BE7C3850069EF81 /* Main.storyboard */ = {
@@ -279,6 +361,30 @@
 			};
 			name = Release;
 		};
+		5BC307911BE7ECA90069EF81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FIS-TweetsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FlatironSchool.FIS-TweetsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIS-Tweets.app/FIS-Tweets";
+			};
+			name = Debug;
+		};
+		5BC307921BE7ECA90069EF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FIS-TweetsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FlatironSchool.FIS-TweetsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIS-Tweets.app/FIS-Tweets";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -296,6 +402,15 @@
 			buildConfigurations = (
 				5BC307821BE7C3850069EF81 /* Debug */,
 				5BC307831BE7C3850069EF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC307931BE7ECA90069EF81 /* Build configuration list for PBXNativeTarget "FIS-TweetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC307911BE7ECA90069EF81 /* Debug */,
+				5BC307921BE7ECA90069EF81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
