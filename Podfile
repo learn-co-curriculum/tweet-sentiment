@@ -9,5 +9,9 @@ end
 
 target 'FIS-TweetsTests' do
 
+  pod 'Specta'
+  pod 'Expecta'                                                 
+  pod 'OHHTTPStubs'
+
 end
 
