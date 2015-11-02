@@ -98,24 +98,6 @@ describe(@"FISTwitterAPIClient", ^{
                                                           }];
             });
         });
-        
-        //        it(@"Should get the polarity of the tweets using the sentiment140 API", ^{
-        //
-        //            waitUntil(^(DoneCallback done) {
-        //
-        //                [FISSentiment140API getPolarityOfTweets:tweets
-        //                                              fromQuery:query
-        //                                         withCompletion:^(NSNumber *polarity) {
-        //
-        //                                             expect(polarity).to.beAKindOf([NSNumber class]);
-        //                                             expect(polarity).notTo.equal(nil);
-        //                                             expect(polarity).to.equal(10);
-        //                                             expect(polarity).notTo.equal(0);
-        //
-        //                                             done();
-        //                                         }];
-        //            });
-        //        });
     });
 });
 
