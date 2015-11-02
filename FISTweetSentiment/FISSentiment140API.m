@@ -9,6 +9,7 @@
 #import "FISSentiment140API.h"
 #import "FISConstants.h"
 
+
 @implementation FISSentiment140API
 
 + (void)getPolarityOfTweets:(NSArray *)tweets
