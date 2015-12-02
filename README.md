@@ -18,3 +18,5 @@ Let's find out how The Flatiron School is doing on Social Media. We'll need two 
   ```
 
   4. Your App should have just a label. When the app loads, it should request all of the tweets mentioning `FlatrionSchool` and then give an average sentiment for the term `FlatironSchool` displayed in the label.
+
+<a href='https://learn.co/lessons/tweet-sentiment' data-visibility='hidden'>View this lesson on Learn.co</a>
